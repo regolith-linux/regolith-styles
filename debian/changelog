@@ -1,0 +1,7 @@
+regolith-styles (1.2-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Initial release
+  * Files moved from regolith-assets
+  * As of this version, theme data is incomplete
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 26 Jun 2019 07:16:11 -0700
