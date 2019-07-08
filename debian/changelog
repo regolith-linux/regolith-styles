@@ -1,3 +1,16 @@
+regolith-styles (1.2.2-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Add i3blocks
+  * Fix i3-wm to include macros to generate workspace names 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 07 Jul 2019 22:44:28 -0700
+
+regolith-styles (1.2.1-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Fix makefile typo. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 30 Jun 2019 09:50:29 -0700
+
 regolith-styles (1.2-1ubuntu1ppa1) bionic; urgency=medium
 
   * Initial release

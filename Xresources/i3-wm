@@ -40,66 +40,29 @@ i3-wm.client.urgent.color.text: Solarized_base3
 i3-wm.client.urgent.color.indicator: Solarized_red
 i3-wm.client.urgent.color.child_border:
 
-! The remaining configuration is currently unused due to i3wm config file limitations
-! https://i3wm.org/docs/userguide.html#variables
-i3-wm.workspace.01.name: " 1 "
-i3-wm.workspace.02.name: " 2 "
-i3-wm.workspace.03.name: " 3 "
-i3-wm.workspace.04.name: " 4 "
-i3-wm.workspace.05.name: " 5 "
-i3-wm.workspace.06.name: " 6 "
-i3-wm.workspace.07.name: " 7 "
-i3-wm.workspace.08.name: " 8 "
-i3-wm.workspace.09.name: " 9 "
-i3-wm.workspace.10.name: "10 "
-i3-wm.workspace.11.name: "11 "
-i3-wm.workspace.12.name: "12 "
-i3-wm.workspace.13.name: "13 "
-i3-wm.workspace.14.name: "14 "
-i3-wm.workspace.15.name: "15 "
-i3-wm.workspace.16.name: "16 "
-i3-wm.workspace.17.name: "17 "
-i3-wm.workspace.18.name: "18 "
-i3-wm.workspace.19.name: "19 "
+#define glyph_font "Source Code Pro Medium 13"
+#define glyph 
+#define Q(x) #x
+#define QUOTE(x) Q(x)
 
-i3-wm.workspace.01.glyph.font: Source Code Pro Medium 13
+#define WORKSPACE_NAME(INDEX, FONT, COLOR, GLYPH) INDEX:<span font_desc=FONT> INDEX </span><span foreground=COLOR>GLYPH</span>
 
-i3-wm.workspace.01.glyph.text: ""
-i3-wm.workspace.02.glyph.text: ""
-i3-wm.workspace.03.glyph.text: ""
-i3-wm.workspace.04.glyph.text: ""
-i3-wm.workspace.05.glyph.text: ""
-i3-wm.workspace.06.glyph.text: ""
-i3-wm.workspace.07.glyph.text: ""
-i3-wm.workspace.08.glyph.text: ""
-i3-wm.workspace.09.glyph.text: ""
-i3-wm.workspace.10.glyph.text: ""
-i3-wm.workspace.11.glyph.text: ""
-i3-wm.workspace.12.glyph.text: ""
-i3-wm.workspace.13.glyph.text: ""
-i3-wm.workspace.14.glyph.text: ""
-i3-wm.workspace.15.glyph.text: ""
-i3-wm.workspace.16.glyph.text: ""
-i3-wm.workspace.17.glyph.text: ""
-i3-wm.workspace.18.glyph.text: ""
-i3-wm.workspace.19.glyph.text: ""
-
-i3-wm.workspace.01.glyph.color: Solarized_blue
-i3-wm.workspace.02.glyph.color: Solarized_cyan
-i3-wm.workspace.03.glyph.color: Solarized_green
-i3-wm.workspace.04.glyph.color: Solarized_yellow
-i3-wm.workspace.05.glyph.color: Solarized_orange
-i3-wm.workspace.06.glyph.color: Solarized_red
-i3-wm.workspace.07.glyph.color: Solarized_magenta
-i3-wm.workspace.08.glyph.color: Solarized_violet
-i3-wm.workspace.09.glyph.color: Solarized_base1
-i3-wm.workspace.10.glyph.color: Solarized_blue
-i3-wm.workspace.11.glyph.color: Solarized_cyan
-i3-wm.workspace.12.glyph.color: Solarized_green
-i3-wm.workspace.13.glyph.color: Solarized_yellow
-i3-wm.workspace.14.glyph.color: Solarized_orange
-i3-wm.workspace.15.glyph.color: Solarized_red
-i3-wm.workspace.16.glyph.color: Solarized_magenta
-i3-wm.workspace.17.glyph.color: Solarized_violet
-i3-wm.workspace.18.glyph.color: Solarized_base1
-i3-wm.workspace.19.glyph.color: Solarized_blue
+i3-wm.workspace.01.name: WORKSPACE_NAME(1, glyph_font, QUOTE(Solarized_blue), )
+i3-wm.workspace.02.name: WORKSPACE_NAME(2, glyph_font, QUOTE(Solarized_cyan), )
+i3-wm.workspace.03.name: WORKSPACE_NAME(3, glyph_font, QUOTE(Solarized_green), )
+i3-wm.workspace.04.name: WORKSPACE_NAME(4, glyph_font, QUOTE(Solarized_yellow), )
+i3-wm.workspace.05.name: WORKSPACE_NAME(5, glyph_font, QUOTE(Solarized_orange), )
+i3-wm.workspace.06.name: WORKSPACE_NAME(6, glyph_font, QUOTE(Solarized_red), )
+i3-wm.workspace.07.name: WORKSPACE_NAME(7, glyph_font, QUOTE(Solarized_magenta), )
+i3-wm.workspace.08.name: WORKSPACE_NAME(8, glyph_font, QUOTE(Solarized_violet), )
+i3-wm.workspace.09.name: WORKSPACE_NAME(9, glyph_font, QUOTE(Solarized_base1), )
+i3-wm.workspace.10.name: WORKSPACE_NAME(10, glyph_font, QUOTE(Solarized_blue), )
+i3-wm.workspace.11.name: WORKSPACE_NAME(11, glyph_font, QUOTE(Solarized_cyan), )
+i3-wm.workspace.12.name: WORKSPACE_NAME(12, glyph_font, QUOTE(Solarized_green), )
+i3-wm.workspace.13.name: WORKSPACE_NAME(13, glyph_font, QUOTE(Solarized_yellow), )
+i3-wm.workspace.14.name: WORKSPACE_NAME(14, glyph_font, QUOTE(Solarized_orange), )
+i3-wm.workspace.15.name: WORKSPACE_NAME(15, glyph_font, QUOTE(Solarized_red), )
+i3-wm.workspace.16.name: WORKSPACE_NAME(16, glyph_font, QUOTE(Solarized_magenta), )
+i3-wm.workspace.17.name: WORKSPACE_NAME(17, glyph_font, QUOTE(Solarized_violet), )
+i3-wm.workspace.18.name: WORKSPACE_NAME(18, glyph_font, QUOTE(Solarized_base1), )
+i3-wm.workspace.19.name: WORKSPACE_NAME(19, glyph_font, QUOTE(Solarized_blue), )
