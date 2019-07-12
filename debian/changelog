@@ -1,3 +1,10 @@
+regolith-styles (1.2.3-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Add basic rofi styles. 
+  * Load i3-wm, i3blocks, and rofi styles from root.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 12 Jul 2019 07:09:44 -0700
+
 regolith-styles (1.2.2-1ubuntu1ppa1) bionic; urgency=medium
 
   * Add i3blocks

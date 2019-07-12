@@ -1,2 +1,5 @@
 #include ".Xresources.d/solarized"
 #include ".Xresources.d/st-term"
+#include ".Xresources.d/i3-wm"
+#include ".Xresources.d/i3blocks"
+#include ".Xresources.d/rofi"
