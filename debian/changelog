@@ -1,3 +1,12 @@
+regolith-styles (1.2.4-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Add gruvbox theme provided by @MoreThanLuck and @cafeoh.
+  * Rename resource keys so that styles can be swapped with less change.
+  * Fix install issue with rofi
+  * Add comments 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 15 Jul 2019 20:56:57 -0700
+
 regolith-styles (1.2.3-1ubuntu1ppa1) bionic; urgency=medium
 
   * Add basic rofi styles. 

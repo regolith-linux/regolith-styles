@@ -1,6 +1,6 @@
-i3blocks.label.color:  Solarized_base01
-i3blocks.value.color:  Solarized_base0
-i3blocks.value.font: Source Code Pro Medium 13
+i3blocks.label.color:   color_base01
+i3blocks.value.color:   color_base0
+i3blocks.value.font:    typeface_bar
 
 i3blocks.cpu.glyph: 
 

@@ -1,5 +1,5 @@
 rofi.theme:             regolith-theme.rasi
-rofi.font:              Sourcecode Pro 16
+rofi.font:              typeface_rofi
 rofi.show-icons:        true
 rofi.drun-icon-theme:   Arc
 rofi.fullscreen:        true
