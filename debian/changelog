@@ -1,3 +1,11 @@
+regolith-styles (1.2.5-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Fix font issue w/ i3bar. 
+  * Add untested nord theme, adapted from work by @leosunmo in
+    https://github.com/regolith-linux/regolith-desktop/issues/31.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 16 Jul 2019 21:52:14 -0700
+
 regolith-styles (1.2.4-1ubuntu1ppa1) bionic; urgency=medium
 
   * Add gruvbox theme provided by @MoreThanLuck and @cafeoh.

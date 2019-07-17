@@ -1,6 +1,7 @@
 ! -- Style Definitions
 #include ".Xresources.d/color-solarized"
 !#include ".Xresources.d/color-gruvbox"
+!#include ".Xresources.d/color-nord"
 #include ".Xresources.d/typeface-sourcecodepro"
 
 ! -- Application Settings

@@ -1,0 +1,17 @@
+# Nord theme
+#define color_base03   #2E3440
+#define color_base02   #3B4252
+#define color_base01   #434C5E
+#define color_base00   #4C566A
+#define color_base0    #D8DEE9
+#define color_base1    #E5E9F0
+#define color_base2    #ECEFF4
+#define color_base3    #8FBCBB
+#define color_yellow   #88C0D0
+#define color_orange   #81A1C1
+#define color_red      #5E81AC
+#define color_magenta  #BF616A
+#define color_violet   #D08770
+#define color_blue     #EBCB8B
+#define color_cyan     #A3BE8C
+#define color_green    #B48EAD
