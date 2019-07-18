@@ -1,3 +1,11 @@
+regolith-styles (1.2.6-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Add untested solarized light by reversing bases.
+  * Change names for correctness.
+  * Fix build issue w/ nord styles. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 17 Jul 2019 20:00:45 -0700
+
 regolith-styles (1.2.5-1ubuntu1ppa1) bionic; urgency=medium
 
   * Fix font issue w/ i3bar. 

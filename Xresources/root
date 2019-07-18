@@ -1,11 +1,14 @@
-! -- Style Definitions
-#include ".Xresources.d/color-solarized"
+! -- Styles - Colors
+#include ".Xresources.d/color-solarized-dark"
+!#include ".Xresources.d/color-solarized-light"
 !#include ".Xresources.d/color-gruvbox"
 !#include ".Xresources.d/color-nord"
+
+! -- Styles - Fonts
 #include ".Xresources.d/typeface-sourcecodepro"
 
-! -- Application Settings
+! -- Applications
 #include ".Xresources.d/st-term"
 #include ".Xresources.d/i3-wm"
-#include ".Xresources.d/i3blocks"
+#include ".Xresources.d/i3xrocks"
 #include ".Xresources.d/rofi"
