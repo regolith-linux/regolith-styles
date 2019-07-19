@@ -12,7 +12,7 @@ install:
 	$(INSTALL) -m0644 -D Xresources/color-solarized-dark $(PATH_REGOLITH_STYLES)/color-solarized-dark
 	$(INSTALL) -m0644 -D Xresources/color-solarized-light $(PATH_REGOLITH_STYLES)/color-solarized-light
 	$(INSTALL) -m0644 -D Xresources/color-gruvbox $(PATH_REGOLITH_STYLES)/color-gruvbox
-	$(INSTALL) -m0644 -D Xresources/color-gruvbox $(PATH_REGOLITH_STYLES)/color-nord
+	$(INSTALL) -m0644 -D Xresources/color-nord $(PATH_REGOLITH_STYLES)/color-nord
 
 	# Styles - Fonts
 	$(INSTALL) -m0644 -D Xresources/typeface-sourcecodepro $(PATH_REGOLITH_STYLES)/typeface-sourcecodepro

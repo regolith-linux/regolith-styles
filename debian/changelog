@@ -1,3 +1,9 @@
+regolith-styles (1.2.7-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Yet another fix to stage nord styles. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 18 Jul 2019 07:22:14 -0700
+
 regolith-styles (1.2.6-1ubuntu1ppa1) bionic; urgency=medium
 
   * Add untested solarized light by reversing bases.
