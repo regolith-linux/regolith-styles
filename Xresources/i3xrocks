@@ -1,9 +1,7 @@
-i3blocks.label.color:   color_base01
-i3blocks.value.color:   color_base0
-i3blocks.value.font:    typeface_bar
-
-i3blocks.cpu.glyph: 
-
-i3blocks.battery.glyph: 
-
-i3blocks.time.glyph: 
+i3xrocks.label.color:       color_base01
+i3xrocks.value.color:       color_base0
+i3xrocks.value.font:        typeface_bar_glyph
+i3xrocks.critical.color:    color_red
+i3xrocks.error.color:       color_orange
+i3xrocks.warning:           color_yellow
+i3xrocks.nominal:           color_base0
