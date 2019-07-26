@@ -1,3 +1,9 @@
+regolith-styles (1.2.11-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Fix typo in Xresources comment. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 26 Jul 2019 08:12:59 -0700
+
 regolith-styles (1.2.10-1ubuntu1ppa1) bionic; urgency=medium
 
   * Add theme definitions.

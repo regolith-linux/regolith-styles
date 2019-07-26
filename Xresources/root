@@ -20,7 +20,6 @@
 
 ! -- Applications
 !
-! Uncomment one and only one of the following font definitions
 #include ".Xresources.d/st-term"
 #include ".Xresources.d/i3-wm"
 #include ".Xresources.d/i3xrocks"
