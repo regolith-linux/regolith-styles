@@ -1,14 +1,32 @@
 ! -- Styles - Colors
+!
+! Uncomment one and only one of the following color definitions 
 #include ".Xresources.d/color-solarized-dark"
 !#include ".Xresources.d/color-solarized-light"
 !#include ".Xresources.d/color-gruvbox"
 !#include ".Xresources.d/color-nord"
 
 ! -- Styles - Fonts
+!
+! Uncomment one and only one of the following font definitions 
 #include ".Xresources.d/typeface-sourcecodepro"
+!#include ".Xresources.d/typeface-sourcecodepro"
+
+! -- Styles - Theme
+!
+! Uncomment one and only one of the following font definitions
+#include ".Xresources.d/theme-regolith"
+!#include ".Xresources.d/theme-ubuntu-dark"
 
 ! -- Applications
+!
+! Uncomment one and only one of the following font definitions
 #include ".Xresources.d/st-term"
 #include ".Xresources.d/i3-wm"
 #include ".Xresources.d/i3xrocks"
 #include ".Xresources.d/rofi"
+#include ".Xresources.d/gnome"
+
+! -- Policy
+! Set this to false for Regolith to never update files on start
+regolith.policy.update: true

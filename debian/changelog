@@ -1,3 +1,12 @@
+regolith-styles (1.2.10-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Add theme definitions.
+  * Add secondary theme.
+  * Add secondary typeface.
+  * Add policy flag for file updates. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 26 Jul 2019 05:22:14 -0700
+
 regolith-styles (1.2.9-1ubuntu1ppa1) bionic; urgency=medium
 
   * Fixes and additions for i3xrocks. 

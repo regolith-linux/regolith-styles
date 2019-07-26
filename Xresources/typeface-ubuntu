@@ -1,0 +1,5 @@
+! Typeface: Source Code Pro
+#define typeface_bar_glyph  Ubuntu Regular 13
+#define typeface_bar        pango:Ubuntu Regular 13, FontAwesome 13
+#define typeface_rofi       Ubuntu Regular 16
+#define typeface_terminal   Ubuntu Mono:pixelsize=16:antialias=true:autohint=true
