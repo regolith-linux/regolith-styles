@@ -26,6 +26,8 @@
 #include ".Xresources.d/rofi"
 #include ".Xresources.d/gnome"
 
-! -- Policy
-! Set this to false for Regolith to never update files on start
-regolith.policy.update: true
+! -- Update Policy
+! Add the following line to your ~/.Xresources file to prevent further
+! updates to your configuration.  Note this may break your UI if backwards
+! incompatible changes are added in the future.
+!regolith.policy.update: true
