@@ -1,6 +1,8 @@
+! This is the Regolith root-level Xresources file.
+!
 ! -- Styles - Colors
 !
-! Uncomment one and only one of the following color definitions 
+! Uncomment one and only one of the following color definitions: 
 #include ".Xresources.d/color-solarized-dark"
 !#include ".Xresources.d/color-solarized-light"
 !#include ".Xresources.d/color-gruvbox"
@@ -8,17 +10,20 @@
 
 ! -- Styles - Fonts
 !
-! Uncomment one and only one of the following font definitions 
+! Uncomment one and only one of the following font definitions:
 #include ".Xresources.d/typeface-sourcecodepro"
 !#include ".Xresources.d/typeface-sourcecodepro"
 
 ! -- Styles - Theme
 !
-! Uncomment one and only one of the following font definitions
+! Uncomment one and only one of the following font definitions:
 #include ".Xresources.d/theme-regolith"
 !#include ".Xresources.d/theme-ubuntu-dark"
 
 ! -- Applications
+! These files are not intended to be modified, however if you
+! would like to configure a new app's Xresources to use Regolith 
+! theme info, this is the place to add it.
 !
 #include ".Xresources.d/st-term"
 #include ".Xresources.d/i3-wm"
@@ -26,8 +31,8 @@
 #include ".Xresources.d/rofi"
 #include ".Xresources.d/gnome"
 
-! -- Update Policy
+! -- Policy
 ! Add the following line to your ~/.Xresources file to prevent further
-! updates to your configuration.  Note this may break your UI if backwards
-! incompatible changes are added in the future.
-!regolith.policy.update: true
+! updates to your configuration, and set the value to false.  Note this 
+! may break your UI if backwards incompatible changes are added in the future.
+regolith.policy.update: true

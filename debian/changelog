@@ -1,3 +1,10 @@
+regolith-styles (1.2.15) bionic; urgency=medium
+
+  * Update documentation.
+  * Reduce versioning for easier user management.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 28 Jul 2019 19:08:29 -0700
+
 regolith-styles (1.2.14-1ubuntu1ppa1) bionic; urgency=medium
 
   * Fix background image file URI issue. 
