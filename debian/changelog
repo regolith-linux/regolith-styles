@@ -1,3 +1,10 @@
+regolith-styles (1.2.16) bionic; urgency=medium
+
+  * Merge in fixes by @danguita from
+    https://github.com/regolith-linux/regolith-styles/pull/1. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 04 Aug 2019 14:29:52 -0700
+
 regolith-styles (1.2.15) bionic; urgency=medium
 
   * Update documentation.
