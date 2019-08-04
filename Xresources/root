@@ -16,7 +16,7 @@
 
 ! -- Styles - Theme
 !
-! Uncomment one and only one of the following font definitions:
+! Uncomment one and only one of the following theme definitions:
 #include ".Xresources.d/theme-regolith"
 !#include ".Xresources.d/theme-ubuntu-dark"
 
