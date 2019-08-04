@@ -1,4 +1,4 @@
-! Typeface: Source Code Pro
+! Typeface: Ubuntu
 #define typeface_bar_glyph  Ubuntu Regular 13
 #define typeface_bar        pango:Ubuntu Regular 13, FontAwesome 13
 #define typeface_rofi       Ubuntu Regular 16
