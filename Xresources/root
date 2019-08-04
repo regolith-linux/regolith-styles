@@ -12,7 +12,7 @@
 !
 ! Uncomment one and only one of the following font definitions:
 #include ".Xresources.d/typeface-sourcecodepro"
-!#include ".Xresources.d/typeface-sourcecodepro"
+!#include ".Xresources.d/typeface-ubuntu"
 
 ! -- Styles - Theme
 !
