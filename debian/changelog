@@ -1,3 +1,9 @@
+regolith-styles (1.2.16) disco; urgency=medium
+
+  * Update mappings of nord color theme to match names.
+
+ -- Ken Gilmer <kgilmer@skade>  Tue, 06 Aug 2019 20:01:43 -0700
+
 regolith-styles (1.2.15) bionic; urgency=medium
 
   * Update documentation.
