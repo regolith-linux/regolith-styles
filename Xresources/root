@@ -22,7 +22,7 @@
 
 ! -- Applications
 ! These files are not intended to be modified, however if you
-! would like to configure a new app's Xresources to use Regolith 
+! would like to configure a new apps Xresources to use Regolith 
 ! theme info, this is the place to add it.
 !
 #include ".Xresources.d/st-term"
