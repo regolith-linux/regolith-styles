@@ -3,33 +3,33 @@
 ! -- Styles - Colors
 !
 ! Uncomment one and only one of the following color definitions: 
-#include ".Xresources.d/color-solarized-dark"
-!#include ".Xresources.d/color-solarized-light"
-!#include ".Xresources.d/color-gruvbox"
-!#include ".Xresources.d/color-nord"
+#include "/etc/regolith/styles/color-solarized-dark"
+!#include "/etc/regolith/styles/color-solarized-light"
+!#include "/etc/regolith/styles/color-gruvbox"
+!#include "/etc/regolith/styles/color-nord"
 
 ! -- Styles - Fonts
 !
 ! Uncomment one and only one of the following font definitions:
-#include ".Xresources.d/typeface-sourcecodepro"
-!#include ".Xresources.d/typeface-ubuntu"
+#include "/etc/regolith/styles/typeface-sourcecodepro"
+!#include "/etc/regolith/styles/typeface-ubuntu"
 
 ! -- Styles - Theme
 !
 ! Uncomment one and only one of the following theme definitions:
-#include ".Xresources.d/theme-regolith"
-!#include ".Xresources.d/theme-ubuntu-dark"
+#include "/etc/regolith/styles/theme-regolith"
+!#include "/etc/regolith/styles/theme-ubuntu-dark"
 
 ! -- Applications
 ! These files are not intended to be modified, however if you
 ! would like to configure a new apps Xresources to use Regolith 
 ! theme info, this is the place to add it.
 !
-#include ".Xresources.d/st-term"
-#include ".Xresources.d/i3-wm"
-#include ".Xresources.d/i3xrocks"
-#include ".Xresources.d/rofi"
-#include ".Xresources.d/gnome"
+#include "/etc/regolith/styles/st-term"
+#include "/etc/regolith/styles/i3-wm"
+#include "/etc/regolith/styles/i3xrocks"
+#include "/etc/regolith/styles/rofi"
+#include "/etc/regolith/styles/gnome"
 
 ! -- Policy
 ! Add the following line to your ~/.Xresources file to prevent further

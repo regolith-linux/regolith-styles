@@ -1,3 +1,9 @@
+regolith-styles (1.2.21-1ubuntu1ppa1) disco; urgency=medium
+
+  * Fix path for resource defines. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 15 Aug 2019 08:04:43 -0700
+
 regolith-styles (1.2.20-1ubuntu1ppa1) disco; urgency=medium
 
   * Move files from /usr/share to /etc for consistency. 
