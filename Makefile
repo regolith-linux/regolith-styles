@@ -1,8 +1,8 @@
-INSTALL = install
+fINSTALL = install
 DESTDIR ?= /
 PREFIX  ?= $(DESTDIR)
 
-PATH_REGOLITH_STYLES = $(PREFIX)/usr/share/regolith-styles
+PATH_REGOLITH_STYLES = $(PREFIX)/etc/regolith/styles
 
 all:
 	@echo "Nothing to do"

@@ -1,3 +1,9 @@
+regolith-styles (1.2.20-1ubuntu1ppa1) disco; urgency=medium
+
+  * Move files from /usr/share to /etc for consistency. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 14 Aug 2019 21:16:49 -0700
+
 regolith-styles (1.2.17) disco; urgency=medium
 
   * Remove invalid quote in comment of Xresources root. 
@@ -10,7 +16,7 @@ regolith-styles (1.2.16) disco; urgency=medium
     https://github.com/regolith-linux/regolith-styles/pull/1. 
   * Update mappings of nord color theme to match names.
 
- -- Ken Gilmer <kgilmer@skade>  Tue, 06 Aug 2019 20:01:43 -0700
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 06 Aug 2019 20:01:43 -0700
 
 regolith-styles (1.2.15) bionic; urgency=medium
 
