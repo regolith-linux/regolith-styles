@@ -21,6 +21,7 @@ install:
 	# Styles - Themes
 	$(INSTALL) -m0644 -D Xresources/theme-regolith $(PATH_REGOLITH_STYLES)/theme-regolith
 	$(INSTALL) -m0644 -D Xresources/theme-ubuntu-dark $(PATH_REGOLITH_STYLES)/theme-ubuntu-dark
+	$(INSTALL) -m0644 -D Xresources/theme-nordic $(PATH_REGOLITH_STYLES)/theme-nordic
 
     # App mappings
 	$(INSTALL) -m0644 -D Xresources/st-term $(PATH_REGOLITH_STYLES)/st-term

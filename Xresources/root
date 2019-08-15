@@ -19,6 +19,7 @@
 ! Uncomment one and only one of the following theme definitions:
 #include "/etc/regolith/styles/theme-regolith"
 !#include "/etc/regolith/styles/theme-ubuntu-dark"
+!#include "/etc/regolith/styles/theme-nordic"
 
 ! -- Applications
 ! These files are not intended to be modified, however if you
