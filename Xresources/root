@@ -32,8 +32,3 @@
 #include "/etc/regolith/styles/rofi"
 #include "/etc/regolith/styles/gnome"
 
-! -- Policy
-! Add the following line to your ~/.Xresources file to prevent further
-! updates to your configuration, and set the value to false.  Note this 
-! may break your UI if backwards incompatible changes are added in the future.
-regolith.policy.update: true
