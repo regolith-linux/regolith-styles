@@ -1,3 +1,10 @@
+regolith-styles (1.2.24-1ubuntu1ppa1) disco; urgency=medium
+
+  * Remove desktop wallpaper from Xresources.
+    Conflicts with user settings. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 15 Aug 2019 20:49:08 -0700
+
 regolith-styles (1.2.23-1ubuntu1ppa1) disco; urgency=medium
 
   * Fix name of nordic theme.

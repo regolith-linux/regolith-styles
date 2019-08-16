@@ -1,4 +1,3 @@
 gnome.gtk.theme:        gtk_theme
 gnome.wm.theme:         gtk_theme
 gnome.icon.theme:       icon_theme
-gnome.wallpaper.uri:    wallpaper_uri

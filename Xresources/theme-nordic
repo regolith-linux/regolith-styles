@@ -1,3 +1,2 @@
 #define gtk_theme       Nordic
 #define icon_theme      Arc
-#define wallpaper_uri   "file:///usr/share/backgrounds/ESP_020528_1750_desktop.jpg"
