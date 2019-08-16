@@ -1,3 +1,10 @@
+regolith-styles (1.2.23-1ubuntu1ppa1) disco; urgency=medium
+
+  * Fix name of nordic theme.
+  * Remove deprecated policy flag. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 15 Aug 2019 20:44:27 -0700
+
 regolith-styles (1.2.22-1ubuntu1ppa1) disco; urgency=medium
 
   * Add nordic gtk theme. 
