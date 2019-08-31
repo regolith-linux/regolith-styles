@@ -1,3 +1,15 @@
+regolith-styles (1.2.26-1ubuntu1~ppa2) disco; urgency=medium
+
+  * Move rofi theme to /etc/regolith 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 30 Aug 2019 20:48:31 -0700
+
+regolith-styles (1.2.25-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Cleanup Ubuntu typeface file. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 30 Aug 2019 20:14:34 -0700
+
 regolith-styles (1.2.24-1ubuntu1ppa1) disco; urgency=medium
 
   * Remove desktop wallpaper from Xresources.

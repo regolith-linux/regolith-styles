@@ -1,4 +1,4 @@
-rofi.theme:             regolith-theme.rasi
+rofi.theme:             /etc/regolith/rofi/regolith-theme.rasi
 rofi.font:              typeface_rofi
 rofi.show-icons:        true
 rofi.drun-icon-theme:   Arc
