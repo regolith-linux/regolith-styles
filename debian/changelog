@@ -1,3 +1,10 @@
+regolith-styles (1.2.28-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Move from Ark to Paper icon set.
+  * Add note regarding package requirements. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 31 Aug 2019 13:14:08 -0700
+
 regolith-styles (1.2.27-1ubuntu1~ppa1) bionic; urgency=medium
 
   * Set nord colors and theme by default. 
