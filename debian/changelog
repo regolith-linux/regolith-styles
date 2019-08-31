@@ -1,3 +1,9 @@
+regolith-styles (1.2.27-1ubuntu1~ppa1) bionic; urgency=medium
+
+  * Set nord colors and theme by default. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 31 Aug 2019 08:06:53 -0700
+
 regolith-styles (1.2.26-1ubuntu1~ppa2) disco; urgency=medium
 
   * Move rofi theme to /etc/regolith 
