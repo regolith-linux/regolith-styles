@@ -6,7 +6,7 @@
 #define color_base0    #D8DEE9
 #define color_base1    #E5E9F0
 #define color_base2    #ECEFF4
-#define color_base3    #8FBCBB
+#define color_base3    #ECEFF4
 #define color_yellow   #EBCB8B
 #define color_orange   #D08770
 #define color_red      #BF616A

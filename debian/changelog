@@ -1,3 +1,10 @@
+regolith-styles (1.2.29-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Tweaks to bar colors for Nord theme.
+  * Change clock format to 12-hour. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 03 Sep 2019 22:34:35 -0700
+
 regolith-styles (1.2.28-1ubuntu1~ppa1) disco; urgency=medium
 
   * Move from Ark to Paper icon set.
