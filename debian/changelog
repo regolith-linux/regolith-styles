@@ -1,3 +1,10 @@
+regolith-styles (1.2.30-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Add more contrast between bar background and foregound for 
+    inactive items. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 06 Sep 2019 08:27:15 -0700
+
 regolith-styles (1.2.29-1ubuntu1~ppa1) disco; urgency=medium
 
   * Tweaks to bar colors for Nord theme.
