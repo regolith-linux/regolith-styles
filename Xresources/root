@@ -17,7 +17,7 @@
 ! -- Styles - Theme
 ! NOTE: GTK theme and icon packages may need to be installed when enabling themes.
 ! Uncomment one and only one of the following theme definitions:
-!#include "/etc/regolith/styles/theme-regolith-solarized"
+!#include "/etc/regolith/styles/theme-regolith"
 !#include "/etc/regolith/styles/theme-ubuntu-dark"
 #include "/etc/regolith/styles/theme-nordic"
 
