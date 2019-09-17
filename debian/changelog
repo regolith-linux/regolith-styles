@@ -1,3 +1,9 @@
+regolith-styles (1.2.32-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Add documentation of package dependencies for optional themes. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 17 Sep 2019 07:24:58 -0700
+
 regolith-styles (1.2.31-1ubuntu1~ppa1) disco; urgency=medium
 
   * Fix https://github.com/regolith-linux/regolith-styles/pull/3 from 

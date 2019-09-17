@@ -17,8 +17,14 @@
 ! -- Styles - Theme
 ! NOTE: GTK theme and icon packages may need to be installed when enabling themes.
 ! Uncomment one and only one of the following theme definitions:
+!
+! The following theme requires solarc-theme and arc-icon-theme to be installed.
 !#include "/etc/regolith/styles/theme-regolith"
+!
+! The following theme requires gnome-themes-extra-data and adwaita-icon-theme to be installed.
 !#include "/etc/regolith/styles/theme-ubuntu-dark"
+!
+! The following theme requires nordic and paper-icon-theme to be installed
 #include "/etc/regolith/styles/theme-nordic"
 
 ! -- Applications
