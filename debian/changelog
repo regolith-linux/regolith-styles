@@ -1,3 +1,9 @@
+regolith-styles (1.2.34-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Fix i3-wm style to use glyph define for workspace symbol. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 20 Sep 2019 08:14:38 -0700
+
 regolith-styles (1.2.33-1ubuntu1~ppa1) disco; urgency=medium
 
   * Remove invalid comment about resource modification.  
