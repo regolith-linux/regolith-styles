@@ -1,3 +1,9 @@
+regolith-styles (1.2.33-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Remove invalid comment about resource modification.  
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 20 Sep 2019 07:56:02 -0700
+
 regolith-styles (1.2.32-1ubuntu1~ppa1) disco; urgency=medium
 
   * Add documentation of package dependencies for optional themes. 
