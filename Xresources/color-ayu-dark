@@ -2,11 +2,11 @@
 #define color_base03   #0a0e14
 #define color_base02   #1f2430
 #define color_base01   #b3b1ad
-#define color_base00   #ffffff
-#define color_base0    #b3b1ad
-#define color_base1    #ffffff
-#define color_base2    #0a0e14
-#define color_base3    #1f2430
+#define color_base00   #b3b1ad
+#define color_base0    #e6e1cf
+#define color_base1    #e6e1cf
+#define color_base2    #ffffff
+#define color_base3    #ffffff
 #define color_yellow   #ffd580
 #define color_orange   #e6b450
 #define color_red      #ff3333
