@@ -1,0 +1,17 @@
+! Ayu colors
+#define color_base03   #fafafa
+#define color_base02   #eee8d5
+#define color_base01   #cbccc6
+#define color_base00   #cbccc6
+#define color_base0    #cbccc6
+#define color_base1    #6c7680
+#define color_base2    #6c7680
+#define color_base3    #6c7680
+#define color_yellow   #ffa759
+#define color_orange   #ff9940
+#define color_red      #ff3333
+#define color_magenta  #f28779
+#define color_violet   #B48EAD
+#define color_blue     #73d0ff
+#define color_cyan     #95e6cb
+#define color_green    #bae67e
