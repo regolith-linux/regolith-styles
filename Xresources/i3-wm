@@ -1,7 +1,7 @@
 #define Q(x) #x
 #define QUOTE(x) Q(x)
 
-#define glyph 
+#define glyph typeface_bar_glyph_workspace
 
 i3-wm.bar.font: typeface_bar
 
