@@ -1,3 +1,9 @@
+regolith-styles (1.2.36-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Define bar icons in typeface resource file. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 13 Oct 2019 16:59:45 -0700
+
 regolith-styles (1.2.35-1ubuntu1~ppa1) disco; urgency=medium
 
   * Package new styles by @appelgriebsch. 
