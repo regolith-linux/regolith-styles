@@ -1,3 +1,9 @@
+regolith-styles (1.2.37-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Update nord color for st term based on user feedback. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 02 Nov 2019 19:04:49 -0700
+
 regolith-styles (1.2.36-1ubuntu1~ppa1) disco; urgency=medium
 
   * Define bar icons in typeface resource file. 
