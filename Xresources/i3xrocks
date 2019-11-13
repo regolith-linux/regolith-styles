@@ -18,3 +18,5 @@ i3xrocks.label.batterycharging: typeface_bar_glyph_battery_charging
 i3xrocks.label.batteryac: typeface_bar_glyph_battery_ac
 i3xrocks.label.batteryunknown: typeface_bar_glyph_battery_unknown
 i3xrocks.label.time: typeface_bar_glyph_time
+i3xrocks.label.mediaplaying: typeface_bar_glyph_media_playing
+i3xrocks.label.mediapaused: typeface_bar_glyph_media_paused
