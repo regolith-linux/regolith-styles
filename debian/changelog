@@ -1,3 +1,9 @@
+regolith-styles (1.2.38-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add icons for new nettraffic blocket. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 18 Nov 2019 20:06:42 -0800
+
 regolith-styles (1.2.37-1ubuntu1~ppa1) disco; urgency=medium
 
   * Update nord color for st term based on user feedback. 

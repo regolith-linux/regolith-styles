@@ -8,6 +8,9 @@ i3xrocks.nominal:           color_base0
 i3xrocks.date.format:       + %m/%d %I:%M %p
 
 i3xrocks.label.wifi: typeface_bar_glyph_wifi
+i3xrocks.label.wired: typeface_bar_glyph_wired
+i3xrocks.label.up: typeface_bar_glyph_up
+i3xrocks.label.dn: typeface_bar_glyph_dn
 i3xrocks.label.cpu: typeface_bar_glyph_cpu
 i3xrocks.label.battery100: typeface_bar_glyph_battery_100
 i3xrocks.label.battery80: typeface_bar_glyph_battery_80
