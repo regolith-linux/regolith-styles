@@ -6,8 +6,8 @@
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
-#define typeface_bar_glyph_up ▴
-#define typeface_bar_glyph_dn ▾
+#define typeface_bar_glyph_up 
+#define typeface_bar_glyph_dn 
 #define typeface_bar_glyph_cpu 
 #define typeface_bar_glyph_battery_100 
 #define typeface_bar_glyph_battery_80 
@@ -19,3 +19,7 @@
 #define typeface_bar_glyph_battery_unknown 
 #define typeface_bar_glyph_time 
 #define typeface_bar_glyph_workspace 
+#define typeface_bar_glyph_notify_none 
+#define typeface_bar_glyph_notify_some 
+#define typeface_bar_glyph_notify_error 
+#define typeface_bar_glyph_help 

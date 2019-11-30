@@ -1,3 +1,10 @@
+regolith-styles (1.2.39-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add icons for help.
+  * Add icons for notifications. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 29 Nov 2019 17:28:58 -0800
+
 regolith-styles (1.2.38-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add icons for new nettraffic blocket. 

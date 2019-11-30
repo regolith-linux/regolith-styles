@@ -1,4 +1,4 @@
-i3xrocks.label.color:       color_base00
+i3xrocks.label.color:       color_base01
 i3xrocks.value.color:       color_base0
 i3xrocks.value.font:        typeface_bar_glyph
 i3xrocks.critical.color:    color_red
@@ -11,7 +11,9 @@ i3xrocks.label.wifi: typeface_bar_glyph_wifi
 i3xrocks.label.wired: typeface_bar_glyph_wired
 i3xrocks.label.up: typeface_bar_glyph_up
 i3xrocks.label.dn: typeface_bar_glyph_dn
+
 i3xrocks.label.cpu: typeface_bar_glyph_cpu
+
 i3xrocks.label.battery100: typeface_bar_glyph_battery_100
 i3xrocks.label.battery80: typeface_bar_glyph_battery_80
 i3xrocks.label.battery50: typeface_bar_glyph_battery_50
@@ -20,4 +22,11 @@ i3xrocks.label.battery0: typeface_bar_glyph_battery_0
 i3xrocks.label.batterycharging: typeface_bar_glyph_battery_charging
 i3xrocks.label.batteryac: typeface_bar_glyph_battery_ac
 i3xrocks.label.batteryunknown: typeface_bar_glyph_battery_unknown
+
 i3xrocks.label.time: typeface_bar_glyph_time
+
+i3xrocks.label.notify.none: typeface_bar_glyph_notify_none
+i3xrocks.label.notify.some: typeface_bar_glyph_notify_some
+i3xrocks.label.notify.error: typeface_bar_glyph_notify_error
+
+i3xrocks.label.help: typeface_bar_glyph_help

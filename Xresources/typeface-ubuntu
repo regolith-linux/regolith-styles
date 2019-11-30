@@ -19,3 +19,7 @@
 #define typeface_bar_glyph_battery_unknown 
 #define typeface_bar_glyph_time 
 #define typeface_bar_glyph_workspace 
+#define typeface_bar_glyph_notify_none 
+#define typeface_bar_glyph_notify_some 
+#define typeface_bar_glyph_notify_error 
+#define typeface_bar_glyph_help 
