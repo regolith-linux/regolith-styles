@@ -23,3 +23,4 @@
 #define typeface_bar_glyph_notify_some 
 #define typeface_bar_glyph_notify_error 
 #define typeface_bar_glyph_help 
+#define typeface_bar_glyph_thermometer 

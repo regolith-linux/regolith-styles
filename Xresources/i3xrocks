@@ -7,6 +7,7 @@ i3xrocks.warning:           color_yellow
 i3xrocks.nominal:           color_base0
 i3xrocks.date.format:       + %m/%d %I:%M %p
 
+i3xrocks.label.thermometer: typeface_bar_glyph_thermometer
 i3xrocks.label.wifi: typeface_bar_glyph_wifi
 i3xrocks.label.wired: typeface_bar_glyph_wired
 i3xrocks.label.up: typeface_bar_glyph_up
