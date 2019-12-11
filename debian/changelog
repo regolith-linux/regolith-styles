@@ -1,3 +1,23 @@
+regolith-styles (1.2.40-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Package: add thermometer icon for temperature blocket by @bdzzz
+  * Package: Update ubuntu typeface to use ubuntu term font by @powersj
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 08 Dec 2019 20:52:36 -0800
+
+regolith-styles (1.2.39-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add icons for help.
+  * Add icons for notifications. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 29 Nov 2019 17:28:58 -0800
+
+regolith-styles (1.2.38-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add icons for new nettraffic blocket. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 18 Nov 2019 20:06:42 -0800
+
 regolith-styles (1.2.37-1ubuntu1~ppa1) disco; urgency=medium
 
   * Update nord color for st term based on user feedback. 
