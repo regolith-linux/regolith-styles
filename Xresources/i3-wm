@@ -3,6 +3,7 @@
 
 #define glyph typeface_bar_glyph_workspace
 
+i3-wm.font: typeface_wm
 i3-wm.bar.font: typeface_bar
 
 i3-wm.bar.background.color: color_base03
