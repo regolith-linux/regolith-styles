@@ -29,7 +29,7 @@ Replaces: regolith-look
 
 Package: regolith-look-ayu
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, ayu, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
+Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu look
 Provides: regolith-look
 Conflicts: regolith-look
@@ -37,7 +37,7 @@ Replaces: regolith-look
 
 Package: regolith-look-ayu-dark
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, ayu, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
+Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu Dark look
 Provides: regolith-look
 Conflicts: regolith-look
@@ -45,7 +45,7 @@ Replaces: regolith-look
 
 Package: regolith-look-ayu-mirage
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, ayu-mirage, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
+Depends: ${misc:Depends}, regolith-styles, ayu-mirage-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu Mirage look
 Provides: regolith-look
 Conflicts: regolith-look
