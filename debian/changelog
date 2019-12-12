@@ -1,3 +1,17 @@
+regolith-styles (2.0.0-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * First cut at change described at
+    https://github.com/regolith-linux/regolith-desktop/issues/165#issuecomment-564830171
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 11 Dec 2019 21:04:46 -0800
+
+regolith-styles (1.2.40-1ubuntu1~ppa2) eoan; urgency=medium
+
+  * Add key for wm font.
+  * Move from Makefile to Debian install script for multipackage. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 11 Dec 2019 18:59:19 -0800
+
 regolith-styles (1.2.40-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Package: add thermometer icon for temperature blocket by @bdzzz

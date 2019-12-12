@@ -1,0 +1,17 @@
+! Solarized Dark Colors
+#define color_base03    #002b36
+#define color_base02    #073642
+#define color_base01    #586e75
+#define color_base00    #657b83
+#define color_base0     #839496
+#define color_base1     #93a1a1
+#define color_base2     #eee8d5
+#define color_base3     #fdf6e3
+#define color_yellow    #b58900
+#define color_orange    #cb4b16
+#define color_red       #dc322f
+#define color_magenta   #d33682
+#define color_violet    #6c71c4
+#define color_blue      #268bd2
+#define color_cyan      #2aa198
+#define color_green     #859900

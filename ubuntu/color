@@ -1,0 +1,17 @@
+! Nord colors
+#define color_base03   #2E3440
+#define color_base02   #3B4252
+#define color_base01   #434C5E
+#define color_base00   #7B8394
+#define color_base0    #D8DEE9
+#define color_base1    #E5E9F0
+#define color_base2    #ECEFF4
+#define color_base3    #ECEFF4
+#define color_yellow   #EBCB8B
+#define color_orange   #D08770
+#define color_red      #BF616A
+#define color_magenta  #5E81AC
+#define color_violet   #B48EAD
+#define color_blue     #81A1C1
+#define color_cyan     #88C0D0
+#define color_green    #A3BE8C

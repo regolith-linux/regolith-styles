@@ -1,15 +1,5 @@
-Xresources/color-solarized-dark /etc/regolith/styles
-Xresources/color-solarized-light /etc/regolith/styles
-Xresources/color-gruvbox /etc/regolith/styles
-Xresources/color-nord /etc/regolith/styles
-Xresources/typeface-sourcecodepro /etc/regolith/styles
-Xresources/typeface-ubuntu /etc/regolith/styles
-Xresources/theme-regolith /etc/regolith/styles
-Xresources/theme-ubuntu-dark /etc/regolith/styles
-Xresources/theme-nordic /etc/regolith/styles
 Xresources/st-term /etc/regolith/styles
 Xresources/i3-wm /etc/regolith/styles
 Xresources/i3xrocks /etc/regolith/styles
 Xresources/rofi /etc/regolith/styles
 Xresources/gnome /etc/regolith/styles
-Xresources/root /etc/regolith/styles
