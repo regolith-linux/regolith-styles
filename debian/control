@@ -11,7 +11,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Theme and style definitions for Regolith Linux
 
-Package: regolith-look-r1.3
+Package: regolith-look-nord
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, paper-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Regolith R1.3 look

@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# This script will update the current session look based on Xresources values.
+#
 set -x
 
 if [ "$#" -ne 1 ]; then

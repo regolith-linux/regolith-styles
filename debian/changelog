@@ -1,3 +1,16 @@
+regolith-styles (2.0.3-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Remove old regolith theme files.
+  * Rename look r1.3 to nord.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 13 Dec 2019 07:52:53 -0800
+
+regolith-styles (2.0.2-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Remove postinst scripts, not a valid strategy for update. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 12 Dec 2019 21:06:05 -0800
+
 regolith-styles (2.0.1-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add scripts to dynamically refresh themes after install. 
