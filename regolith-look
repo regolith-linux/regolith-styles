@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -x
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: regolith-look <command>"
+    exit 1
+fi
+
+COMMAND=$1
+
+refresh() {
+    # File Locations - Optional User Overrides
+    USER_XRESOURCE_FILE="$HOME/.Xresources-regolith"
+
+    # File Locations - System Defaults
+    DEFAULT_XRESOURCE_FILE="/etc/regolith/styles/root"
+
+    # Avoid loading an early version of the Regolith Xresource file
+    BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
+    HASH=`md5sum $USER_XRESOURCE_FILE | cut -d " " -f1`
+    if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
+        xrdb -merge $USER_XRESOURCE_FILE 
+    else
+        xrdb -merge $DEFAULT_XRESOURCE_FILE
+    fi
+
+    XRES_GTK_THEME=`xrescat gnome.gtk.theme`
+    CURRENT_GTK_THEME=`gsettings get org.gnome.desktop.interface gtk-theme`
+    if [ "$XRES_GTK_THEME" != "$CURRENT_GTK_THEME" ]; then
+        # Set the theme from Xresources values.
+        gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Nordic`"
+        gsettings set org.gnome.desktop.wm.preferences theme "`xrescat gnome.wm.theme Nordic`"
+        gsettings set org.gnome.desktop.interface icon-theme "`xrescat gnome.icon.theme Paper`"
+    fi
+
+    # restart i3-wm after merging Xresources
+    i3-msg restart
+}
+
+if [ "$COMMAND" == "refresh" ]; then
+    refresh
+else 
+    echo "Unrecognized command: $COMMAND"
+    exit 1
+fi
