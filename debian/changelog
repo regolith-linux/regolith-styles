@@ -1,3 +1,9 @@
+regolith-styles (2.0.3-1ubuntu1~ppa3) eoan; urgency=medium
+
+  * Fix build file. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 17 Dec 2019 09:22:31 -0800
+
 regolith-styles (2.0.3-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Remove old regolith theme files.

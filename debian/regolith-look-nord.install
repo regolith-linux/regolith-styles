@@ -1,4 +1,4 @@
-r1.3/color /etc/regolith/styles
-r1.3/typeface /etc/regolith/styles
-r1.3/theme /etc/regolith/styles
-r1.3/root /etc/regolith/styles
+nord/color /etc/regolith/styles
+nord/typeface /etc/regolith/styles
+nord/theme /etc/regolith/styles
+nord/root /etc/regolith/styles
