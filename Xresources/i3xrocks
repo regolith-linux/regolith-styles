@@ -1,5 +1,5 @@
-i3xrocks.label.color:       color_base01
-i3xrocks.value.color:       color_base0
+i3xrocks.label.color:       color_base0
+i3xrocks.value.color:       color_base1
 i3xrocks.value.font:        typeface_bar_glyph
 i3xrocks.critical.color:    color_red
 i3xrocks.error.color:       color_orange

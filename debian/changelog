@@ -1,3 +1,22 @@
+regolith-styles (2.1.2-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Update regolith-look script to detect Xresource changes. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 29 Dec 2019 00:32:42 -0800
+
+regolith-styles (2.1.1-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add backgrounds to Cahuella and Nord themes. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 28 Dec 2019 23:24:59 -0800
+
+regolith-styles (2.1.0-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add Cahuella theme.
+  * Update i3xrocks icon glyphs for more contrast. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 28 Dec 2019 22:43:29 -0800
+
 regolith-styles (2.0.3-1ubuntu1~ppa3) eoan; urgency=medium
 
   * Fix build file. 

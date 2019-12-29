@@ -6,6 +6,7 @@ set -x
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: regolith-look <command>"
+    echo "Commands: refresh"
     exit 1
 fi
 
@@ -27,17 +28,26 @@ refresh() {
         xrdb -merge $DEFAULT_XRESOURCE_FILE
     fi
 
-    XRES_GTK_THEME=`xrescat gnome.gtk.theme`
-    CURRENT_GTK_THEME=`gsettings get org.gnome.desktop.interface gtk-theme`
-    if [ "$XRES_GTK_THEME" != "$CURRENT_GTK_THEME" ]; then
+    UPDATE_FLAG_DIR="$HOME/.config/regolith/flags"
+    UI_REFRESH_FLAG_FILE="$UPDATE_FLAG_DIR/ui-fingerprint"
+    KNOWN_FINGERPRINT=$(<$UI_REFRESH_FLAG_FILE)
+    # Generate hash from Xresources that don't begin with 'X'.
+    CURRENT_FINGERPRINT=$(xrdb -query | grep -v ^X | md5sum | cut -d' ' -f1)
+    if [[ $KNOWN_FINGERPRINT != $CURRENT_FINGERPRINT ]]; then
         # Set the theme from Xresources values.
-        gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Nordic`"
-        gsettings set org.gnome.desktop.wm.preferences theme "`xrescat gnome.wm.theme Nordic`"
-        gsettings set org.gnome.desktop.interface icon-theme "`xrescat gnome.icon.theme Paper`"
-    fi
+        gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Adwaita`"
+        gsettings set org.gnome.desktop.wm.preferences theme "`xrescat gnome.wm.theme Adwaita`"
+        gsettings set org.gnome.desktop.interface icon-theme "`xrescat gnome.icon.theme Adwaita`"
 
-    # restart i3-wm after merging Xresources
-    i3-msg restart
+        # Set the wallpaper
+        gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/regolith-default.jpg"
+
+        # Save current fingerprint to avoid unnecessary configuration.
+        echo $CURRENT_FINGERPRINT > $UI_REFRESH_FLAG_FILE
+
+        # restart i3-wm after merging Xresources
+        i3-msg restart
+    fi
 }
 
 if [ "$COMMAND" == "refresh" ]; then

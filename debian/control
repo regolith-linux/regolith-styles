@@ -11,10 +11,18 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Theme and style definitions for Regolith Linux
 
+Package: regolith-look-cahuella
+Architecture: any
+Depends: ${misc:Depends}, regolith-styles, paper-icon-theme, cahuella, fonts-materialdesignicons-webfont, fonts-source-code-pro-ttf
+Description: Regolith R1.3 look
+Provides: regolith-look
+Conflicts: regolith-look
+Replaces: regolith-look
+
 Package: regolith-look-nord
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, paper-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Regolith R1.3 look
+Description: Regolith R1.2 look
 Provides: regolith-look
 Conflicts: regolith-look
 Replaces: regolith-look
