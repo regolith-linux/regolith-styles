@@ -1,3 +1,9 @@
+regolith-styles (2.1.2-1ubuntu1~ppa2) eoan; urgency=medium
+
+  * Fix wallpaper swap postinst script bug. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 29 Dec 2019 15:57:00 -0800
+
 regolith-styles (2.1.2-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Update regolith-look script to detect Xresource changes. 
