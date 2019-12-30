@@ -1,3 +1,15 @@
+regolith-styles (2.2.2-1ubuntu1~ppa2) eoan; urgency=medium
+
+  * Move stage logic into regolith-look script.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 30 Dec 2019 01:16:32 -0800
+
+regolith-styles (2.2.1-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Ship default root style pointing to Cahuella. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 30 Dec 2019 00:38:33 -0800
+
 regolith-styles (2.2.0-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Remove partially implemented looks.

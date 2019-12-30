@@ -1,12 +1,13 @@
 #!/bin/bash
 #
-# This script will update the current session look based on Xresources values.
-#
+# This script will:
+# * refresh - Update the current session look based on Xresources values.
+# * stage - Copy Xresource and i3 config files in the user directory.
 set -x
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: regolith-look <command>"
-    echo "Commands: refresh"
+    echo "Commands: refresh, stage"
     exit 1
 fi
 
@@ -40,7 +41,10 @@ refresh() {
         gsettings set org.gnome.desktop.interface icon-theme "`xrescat gnome.icon.theme Adwaita`"
 
         # Set the wallpaper
-        gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/regolith-default.jpg"
+        WALLPAPER_FILE=$(xrescat gnome.wallpaper)
+        if [[ ! -z $WALLPAPER_FILE ]]; then
+                gsettings set org.gnome.desktop.background picture-uri $WALLPAPER_FILE
+        fi
 
         # Save current fingerprint to avoid unnecessary configuration.
         echo $CURRENT_FINGERPRINT > $UI_REFRESH_FLAG_FILE
@@ -52,7 +56,13 @@ refresh() {
 
 if [ "$COMMAND" == "refresh" ]; then
     refresh
-else 
+elif [ "$COMMAND" == "stage" ]; then
+    mkdir -p $HOME/.config/regolith/i3
+    cp -b /etc/regolith/i3/config $HOME/.config/regolith/i3/
+    cp -b /etc/regolith/styles/root $HOME/.Xresources-regolith
+
+    echo "Files $HOME/.config/regolith/i3/config and $HOME/.Xresources-regolith have been created, log back in for them to take effect." 
+else
     echo "Unrecognized command: $COMMAND"
     exit 1
 fi

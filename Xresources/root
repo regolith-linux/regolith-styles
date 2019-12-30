@@ -1,0 +1,2 @@
+! -- Change this to update Regolith's look.
+#include "/etc/regolith/styles/cahuella/root"

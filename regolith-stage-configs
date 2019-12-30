@@ -1,8 +1,0 @@
-#!/bin/bash
-# A convienence script to copy Regolith config files into the current user directory.
-
-mkdir -p $HOME/.config/regolith/i3
-cp /etc/regolith/i3/config $HOME/.config/regolith/i3/
-cp /etc/regolith/styles/root $HOME/.Xresources-regolith
-
-echo "Files $HOME/.config/regolith/i3/config and $HOME/.Xresources-regolith have been created, log back in for them to take effect." 
