@@ -1,2 +1,3 @@
-#define gtk_theme       Nordic
-#define icon_theme      Paper
+#define gtk_theme           Nordic
+#define icon_theme          Paper
+#define desktop_wallpaper   /usr/share/backgrounds/luca-bravo-xnqVGsbXgV4-unsplash.jpg

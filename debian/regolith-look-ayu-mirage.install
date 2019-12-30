@@ -1,4 +1,4 @@
-ayu-mirage/color /etc/regolith/styles
-ayu-mirage/typeface /etc/regolith/styles
-ayu-mirage/theme /etc/regolith/styles
-ayu-mirage/root /etc/regolith/styles
+ayu-mirage/color /etc/regolith/styles/ayu-mirage
+ayu-mirage/typeface /etc/regolith/styles/ayu-mirage
+ayu-mirage/theme /etc/regolith/styles/ayu-mirage
+ayu-mirage/root /etc/regolith/styles/ayu-mirage

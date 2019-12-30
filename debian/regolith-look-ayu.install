@@ -1,4 +1,4 @@
-ayu/color /etc/regolith/styles
-ayu/typeface /etc/regolith/styles
-ayu/theme /etc/regolith/styles
-ayu/root /etc/regolith/styles
+ayu/color /etc/regolith/styles/ayu
+ayu/typeface /etc/regolith/styles/ayu
+ayu/theme /etc/regolith/styles/ayu
+ayu/root /etc/regolith/styles/ayu

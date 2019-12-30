@@ -1,6 +1,6 @@
-cahuella/color /etc/regolith/styles
-cahuella/typeface /etc/regolith/styles
-cahuella/theme /etc/regolith/styles
-cahuella/root /etc/regolith/styles
+cahuella/color /etc/regolith/styles/cahuella
+cahuella/typeface /etc/regolith/styles/cahuella
+cahuella/theme /etc/regolith/styles/cahuella
+cahuella/root /etc/regolith/styles/cahuella
 cahuella/reikyu.jpg /usr/share/backgrounds
 cahuella/regolith-cahuella.xml /usr/share/gnome-background-properties

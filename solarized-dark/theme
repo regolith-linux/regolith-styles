@@ -1,2 +1,3 @@
-#define gtk_theme       SolArc-Dark
-#define icon_theme      Arc
+#define gtk_theme           SolArc-Dark
+#define icon_theme          Arc
+#define desktop_wallpaper   /usr/share/backgrounds/ESP_016895_1525_desktop.jpg

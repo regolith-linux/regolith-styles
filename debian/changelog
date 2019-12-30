@@ -1,3 +1,12 @@
+regolith-styles (2.2.0-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Remove partially implemented looks.
+  * Remove mutual exclusivity of look packages.
+  * Bundle wallpapers with themes.
+  * Add helper script to stage configs in user dir. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 30 Dec 2019 00:05:26 -0800
+
 regolith-styles (2.1.2-1ubuntu1~ppa2) eoan; urgency=medium
 
   * Fix wallpaper swap postinst script bug. 

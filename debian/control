@@ -15,79 +15,33 @@ Package: regolith-look-cahuella
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, paper-icon-theme, cahuella, fonts-materialdesignicons-webfont, fonts-source-code-pro-ttf
 Description: Regolith R1.3 look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
 
 Package: regolith-look-nord
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, paper-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Regolith R1.2 look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
-
-Package: regolith-look-r1.1
-Architecture: any
-Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Regolith R1.1 look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
 
 Package: regolith-look-ayu
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
 
 Package: regolith-look-ayu-dark
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu Dark look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
 
 Package: regolith-look-ayu-mirage
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-mirage-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu Mirage look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
-
-# TODO 
-#Package: regolith-look-gruvbox
-#Architecture: any
-#Depends: ${misc:Depends}, regolith-styles, fonts-font-awesome, fonts-source-code-pro-ttf, TODO ~ Find gruvbox gtk theme
-#Description: Gruvbox look
-#Provides: regolith-look
-#Conflicts: regolith-look
-#Replaces: regolith-look
 
 Package: regolith-look-solarized-dark
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Solarized Dark look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
-
-Package: regolith-look-solarized-light
-Architecture: any
-Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Solarized Light look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
 
 Package: regolith-look-ubuntu
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, adwaita-icon-theme, fonts-font-awesome, fonts-ubuntu
-Description: Ubuntu look
-Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
+Description: Ubuntu look for Ubuntu style

@@ -1,4 +1,4 @@
-ubuntu/color /etc/regolith/styles
-ubuntu/typeface /etc/regolith/styles
-ubuntu/theme /etc/regolith/styles
-ubuntu/root /etc/regolith/styles
+ubuntu/color /etc/regolith/styles/ubuntu
+ubuntu/typeface /etc/regolith/styles/ubuntu
+ubuntu/theme /etc/regolith/styles/ubuntu
+ubuntu/root /etc/regolith/styles/ubuntu

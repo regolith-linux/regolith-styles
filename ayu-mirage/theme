@@ -1,2 +1,3 @@
-#define gtk_theme       Ayu-Mirage-Dark
-#define icon_theme      Arc
+#define gtk_theme           Ayu-Mirage-Dark
+#define icon_theme          Arc
+#define desktop_wallpaper   

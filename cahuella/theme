@@ -1,2 +1,3 @@
-#define gtk_theme       Cahuella
-#define icon_theme      Paper
+#define gtk_theme           Cahuella
+#define icon_theme          Paper
+#define desktop_wallpaper   /usr/share/backgrounds/reikyu.jpg

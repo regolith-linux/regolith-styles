@@ -4,3 +4,4 @@ Xresources/i3xrocks /etc/regolith/styles
 Xresources/rofi /etc/regolith/styles
 Xresources/gnome /etc/regolith/styles
 regolith-look /usr/bin
+regolith-stage-configs /usr/bin
