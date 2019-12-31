@@ -1,7 +1,7 @@
-Xresources/st-term /etc/regolith/styles
-Xresources/i3-wm /etc/regolith/styles
-Xresources/i3xrocks /etc/regolith/styles
-Xresources/rofi /etc/regolith/styles
-Xresources/gnome /etc/regolith/styles
-Xresources/root /etc/regolith/styles
+Xresources/st-term /etc/regolith/xresources
+Xresources/i3-wm /etc/regolith/xresources
+Xresources/i3xrocks /etc/regolith/xresources
+Xresources/rofi /etc/regolith/xresources
+Xresources/gnome /etc/regolith/xresources
+Xresources/root /etc/regolith/xresources
 regolith-look /usr/bin

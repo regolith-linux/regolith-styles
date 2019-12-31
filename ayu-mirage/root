@@ -1,11 +1,11 @@
 ! -- Styles - Colors
-#include "/etc/regolith/styles/color"
+#include "/etc/regolith/styles/ayu-mirage/color"
 
 ! -- Styles - Fonts
-#include "/etc/regolith/styles/typeface"
+#include "/etc/regolith/styles/ayu-mirage/typeface"
 
 ! -- Styles - Theme
-#include "/etc/regolith/styles/theme"
+#include "/etc/regolith/styles/ayu-mirage/theme"
 
 ! -- Applications
 ! These files map values defined above into specific app settings.

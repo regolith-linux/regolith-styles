@@ -5,9 +5,9 @@
 # * stage - Copy Xresource and i3 config files in the user directory.
 set -x
 
-if [ "$#" -ne 1 ]; then
+if [ "$#" -le 1 ]; then
     echo "Usage: regolith-look <command>"
-    echo "Commands: refresh, stage"
+    echo "Commands: refresh, stage, set <look>"
     exit 1
 fi
 
@@ -54,14 +54,36 @@ refresh() {
     fi
 }
 
-if [ "$COMMAND" == "refresh" ]; then
-    refresh
-elif [ "$COMMAND" == "stage" ]; then
+stage() {
     mkdir -p $HOME/.config/regolith/i3
     cp -b /etc/regolith/i3/config $HOME/.config/regolith/i3/
     cp -b /etc/regolith/styles/root $HOME/.Xresources-regolith
 
     echo "Files $HOME/.config/regolith/i3/config and $HOME/.Xresources-regolith have been created, log back in for them to take effect." 
+}
+
+set_look() {
+    if [ -f "/etc/regolith/styles/$LOOK/root" ]; then
+        echo "#include \"/etc/regolith/styles/$LOOK/root\"" > /tmp/test
+    else
+        echo "Look $LOOK does not exist or export a root file at /etc/regolith/styles/$LOOK/root."
+        echo "Aborting."
+        exit 1
+    fi
+}
+
+if [ "$COMMAND" == "refresh" ]; then
+    refresh
+elif [ "$COMMAND" == "stage" ]; then
+    stage
+elif [ "$COMMAND" == "set" ]; then
+    LOOK=$2
+    if [ -z $LOOK ]; then 
+        echo "Must specify a look to set."
+        exit 1
+    else 
+        set_look
+    fi
 else
     echo "Unrecognized command: $COMMAND"
     exit 1

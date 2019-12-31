@@ -1,4 +1,11 @@
-regolith-styles (2.2.2-1ubuntu1~ppa2) eoan; urgency=medium
+regolith-styles (2.2.4-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix paths to Xresources in look files.
+  * Add 'set' command to regolith-look to set a look. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 31 Dec 2019 07:27:12 -0800
+
+regolith-styles (2.2.3-1ubuntu1~ppa2) eoan; urgency=medium
 
   * Move stage logic into regolith-look script.
 

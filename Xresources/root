@@ -1,2 +1,2 @@
-! -- Change this to update Regolith's look.
+! -- This points to the root Xresource file.
 #include "/etc/regolith/styles/cahuella/root"
