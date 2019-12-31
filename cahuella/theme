@@ -1,3 +1,4 @@
 #define gtk_theme           Cahuella
 #define icon_theme          Paper
 #define desktop_wallpaper   /usr/share/backgrounds/reikyu.jpg
+#define rofi_theme          /etc/regolith/styles/cahuella/rofi.rasi

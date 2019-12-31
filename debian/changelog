@@ -1,3 +1,9 @@
+regolith-styles (2.2.5-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Integrate rofi into looks. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 31 Dec 2019 07:53:17 -0800
+
 regolith-styles (2.2.4-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Fix paths to Xresources in look files.

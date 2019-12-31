@@ -2,3 +2,4 @@ ayu/color /etc/regolith/styles/ayu
 ayu/typeface /etc/regolith/styles/ayu
 ayu/theme /etc/regolith/styles/ayu
 ayu/root /etc/regolith/styles/ayu
+ayu/rofi.rasi /etc/regolith/styles/ayu

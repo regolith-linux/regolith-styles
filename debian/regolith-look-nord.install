@@ -2,5 +2,6 @@ nord/color /etc/regolith/styles/nord
 nord/typeface /etc/regolith/styles/nord
 nord/theme /etc/regolith/styles/nord
 nord/root /etc/regolith/styles/nord
+nord/rofi.rasi /etc/regolith/styles/nord
 nord/luca-bravo-xnqVGsbXgV4-unsplash.jpg /usr/share/backgrounds
 nord/regolith-nord.xml /usr/share/gnome-background-properties

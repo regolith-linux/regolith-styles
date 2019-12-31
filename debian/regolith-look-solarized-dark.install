@@ -2,5 +2,6 @@ solarized-dark/color /etc/regolith/styles/solarized-dark
 solarized-dark/typeface /etc/regolith/styles/solarized-dark
 solarized-dark/theme /etc/regolith/styles/solarized-dark
 solarized-dark/root /etc/regolith/styles/solarized-dark
+solarized-dark/rofi.rasi /etc/regolith/styles/solarized-dark
 solarized-dark/ESP_016895_1525_desktop.jpg /usr/share/backgrounds
 solarized-dark/solarized-dark.xml /usr/share/gnome-background-properties
