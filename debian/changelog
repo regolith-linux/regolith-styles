@@ -1,4 +1,10 @@
-regolith-styles (2.2.5-1ubuntu1~ppa1) eoan; urgency=medium
+regolith-styles (2.2.7-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add sound icons for volume blocklet. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 31 Dec 2019 11:09:35 -0800
+
+regolith-styles (2.2.6-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Integrate rofi into looks. 
 

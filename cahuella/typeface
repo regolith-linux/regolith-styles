@@ -6,7 +6,7 @@
 #define typeface_terminal   Source Code Pro:pixelsize=16:antialias=true:autohint=true
 
 #define typeface_bar_glyph_wifi 
-#define typeface_bar_glyph_wired 
+#define typeface_bar_glyph_wired 
 #define typeface_bar_glyph_up 
 #define typeface_bar_glyph_dn 
 #define typeface_bar_glyph_cpu 
@@ -30,3 +30,5 @@
 #define typeface_bar_glyph_help 
 
 #define typeface_bar_glyph_thermometer 
+#define typeface_bar_glyph_sound 
+#define typeface_bar_glyph_mute 

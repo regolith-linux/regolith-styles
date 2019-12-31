@@ -5,7 +5,7 @@
 # * stage - Copy Xresource and i3 config files in the user directory.
 set -x
 
-if [ "$#" -le 1 ]; then
+if [ "$#" -lt 1 ]; then
     echo "Usage: regolith-look <command>"
     echo "Commands: refresh, stage, set <look>"
     exit 1
@@ -29,29 +29,19 @@ refresh() {
         xrdb -merge $DEFAULT_XRESOURCE_FILE
     fi
 
-    UPDATE_FLAG_DIR="$HOME/.config/regolith/flags"
-    UI_REFRESH_FLAG_FILE="$UPDATE_FLAG_DIR/ui-fingerprint"
-    KNOWN_FINGERPRINT=$(<$UI_REFRESH_FLAG_FILE)
-    # Generate hash from Xresources that don't begin with 'X'.
-    CURRENT_FINGERPRINT=$(xrdb -query | grep -v ^X | md5sum | cut -d' ' -f1)
-    if [[ $KNOWN_FINGERPRINT != $CURRENT_FINGERPRINT ]]; then
-        # Set the theme from Xresources values.
-        gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Adwaita`"
-        gsettings set org.gnome.desktop.wm.preferences theme "`xrescat gnome.wm.theme Adwaita`"
-        gsettings set org.gnome.desktop.interface icon-theme "`xrescat gnome.icon.theme Adwaita`"
+    # Set the theme from Xresources values.
+    gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Adwaita`"
+    gsettings set org.gnome.desktop.wm.preferences theme "`xrescat gnome.wm.theme Adwaita`"
+    gsettings set org.gnome.desktop.interface icon-theme "`xrescat gnome.icon.theme Adwaita`"
 
-        # Set the wallpaper
-        WALLPAPER_FILE=$(xrescat gnome.wallpaper)
-        if [[ ! -z $WALLPAPER_FILE ]]; then
-                gsettings set org.gnome.desktop.background picture-uri $WALLPAPER_FILE
-        fi
-
-        # Save current fingerprint to avoid unnecessary configuration.
-        echo $CURRENT_FINGERPRINT > $UI_REFRESH_FLAG_FILE
-
-        # restart i3-wm after merging Xresources
-        i3-msg restart
+    # Set the wallpaper
+    WALLPAPER_FILE=$(xrescat gnome.wallpaper)
+    if [[ ! -z $WALLPAPER_FILE ]]; then
+            gsettings set org.gnome.desktop.background picture-uri "file://$WALLPAPER_FILE"
     fi
+
+    # restart i3-wm after merging Xresources
+    i3-msg restart
 }
 
 stage() {

@@ -16,9 +16,9 @@
 
 window {
    background-color: @blackdarkest;
-   y-offset: 25%;
-   width: 640;
+   width: 640px;
    padding: 10px;
+   fullscreen: false;
 }
 
 mainbox {
@@ -39,7 +39,7 @@ textbox {
 }
 
 listview {
-   fixed-height: false;
+   fixed-height: true;
    dynamic: true;
    scrollbar: false;
    spacing: 0px;
