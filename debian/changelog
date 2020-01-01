@@ -1,6 +1,8 @@
 regolith-styles (2.2.7-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add sound icons for volume blocklet. 
+  * Add icons for on/off.
+  * Add icons for caps/numlock.
 
  -- Ken Gilmer <kgilmer@gmail.com>  Tue, 31 Dec 2019 11:09:35 -0800
 

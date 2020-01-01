@@ -32,3 +32,11 @@
 
 #define typeface_bar_glyph_sound S
 #define typeface_bar_glyph_sound M
+
+#define typeface_bar_glyph_memory R
+
+#define typeface_bar_glyph_on +
+#define typeface_bar_glyph_off -
+
+#define typeface_bar_glyph_numlock N
+#define typeface_bar_glyph_capslock C

@@ -38,3 +38,10 @@ i3xrocks.label.help: typeface_bar_glyph_help
 
 i3xrocks.label.sound: typeface_bar_glyph_sound
 i3xrocks.label.mute: typeface_bar_glyph_mute
+i3xrocks.label.memory: typeface_bar_glyph_memory
+
+i3xrocks.label.on: typeface_bar_glyph_on
+i3xrocks.label.off: typeface_bar_glyph_off
+
+i3xrocks.label.capslock: typeface_bar_glyph_capslock
+i3xrocks.label.numlock: typeface_bar_glyph_numlock
