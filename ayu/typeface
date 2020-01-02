@@ -31,8 +31,7 @@
 #define typeface_bar_glyph_thermometer 
 
 #define typeface_bar_glyph_sound S
-#define typeface_bar_glyph_sound M
-
+#define typeface_bar_glyph_mute M
 #define typeface_bar_glyph_memory R
 
 #define typeface_bar_glyph_on +
