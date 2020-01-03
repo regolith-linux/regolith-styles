@@ -83,7 +83,9 @@ clock.color.background: BACKGROUND_COLOR
 clock.color.foreground: FOREGROUND_COLOR
 ```
 
-And so with this additional layer of indirection, we are now able to define multiple color files, and simply toggle which one we desire in our root Xresources file.  All application Xresource files will pick up the desired value complements of the C preprosessor which performs the substitution when the files are parsed.  This in essence the convention that `regolith-styles` defines.
+And so with this additional layer of indirection, we are now able to define multiple color files, and simply toggle which one we desire in our root Xresources file.  All application Xresource files will pick up the desired value complements of the C preprosessor which performs the substitution when the files are parsed.  This in essence the convention that `regolith-styles` defines.  In this repo, the `Xresources` directory contains the application files, and other directories such as `cahuella` define a set of value files.
+
+NOTE: This convention is just that, a convention.  Users are free to implement their Xresource files however they see fit.  As long as the required values can be read via `xrescat`, there is nothing else that needs to be of concern.  If you prefer to put all of your Xresource key/value pairs in one big file, by all means do that.   
 
 # Looks
 
