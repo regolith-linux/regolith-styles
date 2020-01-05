@@ -1,4 +1,4 @@
-regolith-styles (2.2.8-1ubuntu1~ppa2) eoan; urgency=medium
+regolith-styles (2.2.9-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add conflicts for solarized dark them and background image. 
 
