@@ -40,6 +40,7 @@ Package: regolith-look-solarized-dark
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Solarized Dark look
+Conflicts: regolith-assets
 
 Package: regolith-look-ubuntu
 Architecture: any
