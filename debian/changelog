@@ -4,6 +4,12 @@ regolith-styles (2.2.8-1ubuntu1~ppa1) eoan; urgency=medium
 
  -- Ken Gilmer <kgilmer@gmail.com>  Thu, 02 Jan 2020 10:56:53 -0800
 
+regolith-styles (2.2.7-1ubuntu1~ppa2) eoan; urgency=medium
+
+  * Fix install path for styles. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 01 Jan 2020 21:58:47 -0800
+
 regolith-styles (2.2.7-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add sound icons for volume blocklet. 
