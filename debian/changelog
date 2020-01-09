@@ -1,3 +1,21 @@
+regolith-styles (2.2.12-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Minor script tweaks. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 08 Jan 2020 22:34:52 -0800
+
+regolith-styles (2.2.11-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Swap reikyu.jpg for regolith-structure-7.png. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Wed, 08 Jan 2020 22:14:21 -0800
+
+regolith-styles (2.2.10-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Script cleanup.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 06 Jan 2020 19:57:21 -0800
+
 regolith-styles (2.2.9-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add conflicts for solarized dark them and background image. 

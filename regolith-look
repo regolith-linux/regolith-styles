@@ -3,7 +3,7 @@
 # This script will:
 # * refresh - Update the current session look based on Xresources values.
 # * stage - Copy Xresource and i3 config files in the user directory.
-set -x
+# set -x
 
 if [ "$#" -lt 1 ]; then
     echo "Usage: regolith-look <command>"
@@ -22,7 +22,11 @@ refresh() {
 
     # Avoid loading an early version of the Regolith Xresource file
     BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
-    HASH=`md5sum $USER_XRESOURCE_FILE | cut -d " " -f1`
+    if [ -f "$USER_XRESOURCE_FILE" ]; then
+    	HASH=`md5sum $USER_XRESOURCE_FILE | cut -d " " -f1`
+    else
+	HASH=""
+    fi
     if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
         xrdb -merge $USER_XRESOURCE_FILE 
     else
@@ -53,8 +57,14 @@ stage() {
 }
 
 set_look() {
+    if [ -f $HOME/.Xresources-regolith ]; then
+        echo "Regolith Xresources file ($HOME/.Xresources-regolith) already exists, aborting."
+        exit 1
+    fi
+
     if [ -f "/etc/regolith/styles/$LOOK/root" ]; then
-        echo "#include \"/etc/regolith/styles/$LOOK/root\"" > /tmp/test
+        echo "#include \"/etc/regolith/styles/$LOOK/root\"" > $HOME/.Xresources-regolith
+        echo "Created $HOME/.Xresources-regolith pointing to $LOOK."
     else
         echo "Look $LOOK does not exist or export a root file at /etc/regolith/styles/$LOOK/root."
         echo "Aborting."
