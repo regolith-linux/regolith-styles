@@ -44,5 +44,5 @@ Conflicts: regolith-assets
 
 Package: regolith-look-ubuntu
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, adwaita-icon-theme, fonts-font-awesome, fonts-ubuntu
+Depends: ${misc:Depends}, regolith-styles, adwaita-icon-theme, fonts-font-awesome, fonts-ubuntu, ubuntu-wallpapers
 Description: Ubuntu look for Ubuntu style

@@ -1,4 +1,4 @@
 #define gtk_theme           Adwaita-dark
 #define icon_theme          Adwaita
-#define desktop_wallpaper   /usr/share/backgrounds/warty-final-ubuntu.png
+#define desktop_wallpaper   /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
 #define rofi_theme          /etc/regolith/styles/ubuntu/rofi.rasi

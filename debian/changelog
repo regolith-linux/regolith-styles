@@ -1,3 +1,9 @@
+regolith-styles (2.2.13-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Update Ubuntu theme. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 09 Jan 2020 20:20:31 -0800
+
 regolith-styles (2.2.12-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Minor script tweaks. 
