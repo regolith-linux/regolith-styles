@@ -1,3 +1,9 @@
+regolith-styles (2.2.14-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Migrate to new PPA. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Jan 2020 19:13:21 -0800
+
 regolith-styles (2.2.13-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Update Ubuntu theme. 
