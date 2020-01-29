@@ -1,3 +1,9 @@
+regolith-styles (2.2.15-1ubuntu1~ppa1) ; urgency=medium
+
+  * Compress Cahuella theme wallpaper. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 28 Jan 2020 21:35:45 -0800
+
 regolith-styles (2.2.14-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Migrate to new PPA. 
