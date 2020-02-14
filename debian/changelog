@@ -1,3 +1,10 @@
+regolith-styles (2.2.17-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Define child border color. Provide border contrast for focused window
+    based on user feedback. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 14 Feb 2020 07:17:46 -0800
+
 regolith-styles (2.2.16-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Undefine i3xrocks.date.format for new time2 blocket. 
