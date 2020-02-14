@@ -1,3 +1,9 @@
+regolith-styles (2.2.16-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Undefine i3xrocks.date.format for new time2 blocket. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 13 Feb 2020 20:34:48 -0800
+
 regolith-styles (2.2.15-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Compress Cahuella theme wallpaper. 
