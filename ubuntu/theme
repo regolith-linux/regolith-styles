@@ -2,3 +2,9 @@
 #define icon_theme          Adwaita
 #define desktop_wallpaper   /usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
 #define rofi_theme          /etc/regolith/styles/ubuntu/rofi.rasi
+
+#define i3wm_border_size        1
+#define i3wm_floatingwindow_    border_size 1
+#define i3wm_gaps_inner_size    5
+#define i3wm_gaps_outer_size    0
+#define i3wm_bar_position       bottom

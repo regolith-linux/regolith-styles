@@ -6,6 +6,7 @@
 i3-wm.font: typeface_wm
 i3-wm.bar.font: typeface_bar
 
+i3-wm.bar.position: i3wm_bar_position
 i3-wm.bar.background.color: color_base03
 i3-wm.bar.statusline.color: color_base1
 i3-wm.bar.separator.color: color_blue
@@ -45,6 +46,11 @@ i3-wm.client.urgent.color.background: color_red
 i3-wm.client.urgent.color.text: color_base3
 i3-wm.client.urgent.color.indicator: color_red
 i3-wm.client.urgent.color.child_border: color_base03
+
+i3-wm.window.border.size: i3wm_window_border_size
+i3-wm.floatingwindow.border.size: i3wm_floatingwindow_border_size
+i3-wm.gaps.inner.size: i3wm_gaps_inner_size
+i3-wm.gaps.outer.size: i3wm_gaps_outer_size
 
 #define glyph_font QUOTE(typeface_bar_glyph)
 
