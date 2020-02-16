@@ -16,21 +16,24 @@ COMMAND=$1
 refresh() {
     # File Locations - Optional User Overrides
     USER_XRESOURCE_FILE="$HOME/.Xresources-regolith"
+    USER_XRESOURCE_OVERRIDE_FILE="$HOME/.config/regolith/Xresources"
+    USER_XRESOURCE_SEARCH_PATH="$HOME/.config/regolith/Xresources.d"
 
     # File Locations - System Defaults
     DEFAULT_XRESOURCE_FILE="/etc/regolith/styles/root"
 
     # Avoid loading an early version of the Regolith Xresource file
     BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
-    if [ -f "$USER_XRESOURCE_FILE" ]; then
-    	HASH=`md5sum $USER_XRESOURCE_FILE | cut -d " " -f1`
-    else
-	HASH=""
-    fi
+    HASH=$(md5sum $USER_XRESOURCE_FILE | cut -d " " -f1)
     if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
-        xrdb -merge $USER_XRESOURCE_FILE 
+        xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_FILE
     else
         xrdb -merge $DEFAULT_XRESOURCE_FILE
+    fi
+
+    # Check for user overrides of Xresources
+    if [ -f "$USER_XRESOURCE_OVERRIDE_FILE" ]; then
+        xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_OVERRIDE_FILE
     fi
 
     # Set the theme from Xresources values.

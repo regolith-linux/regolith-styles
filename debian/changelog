@@ -1,3 +1,9 @@
+regolith-styles (2.3.2-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Integrate new Xres overrides logic from regolith-gnome-flashback. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 15 Feb 2020 19:08:39 -0800
+
 regolith-styles (2.3.1-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Take @cheginit's fix, apply to other looks. 
