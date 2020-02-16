@@ -3,8 +3,8 @@
 #define desktop_wallpaper   
 #define rofi_theme          /etc/regolith/styles/ayu-dark/rofi.rasi
 
-#define i3wm_border_size        1
-#define i3wm_floatingwindow_    border_size 1
-#define i3wm_gaps_inner_size    5
-#define i3wm_gaps_outer_size    0
-#define i3wm_bar_position       bottom
+#define i3wm_window_border_size         1
+#define i3wm_floatingwindow_border_size 1
+#define i3wm_gaps_inner_size            5
+#define i3wm_gaps_outer_size            0
+#define i3wm_bar_position               bottom

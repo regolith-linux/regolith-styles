@@ -1,3 +1,9 @@
+regolith-styles (2.3.1-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Take @cheginit's fix, apply to other looks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 15 Feb 2020 17:56:07 -0800
+
 regolith-styles (2.3.0-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Specify i3wm gaps, border, and bar position in Xresources. 
