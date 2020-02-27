@@ -1,3 +1,10 @@
+regolith-styles (2.3.3-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add nord-dark wallpaper based on
+    https://www.reddit.com/r/unixporn/comments/ehdj6b/i3gaps_nordic_beauty. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 26 Feb 2020 20:23:09 -0800
+
 regolith-styles (2.3.2-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Integrate new Xres overrides logic from regolith-gnome-flashback. 

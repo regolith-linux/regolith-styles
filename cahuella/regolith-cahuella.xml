@@ -7,4 +7,10 @@
     <options>zoom</options>
     <shade_type>solid</shade_type>
   </wallpaper>
+  <wallpaper>
+    <name>Regolith Nord Dark</name>
+    <filename>/usr/share/backgrounds/nord-dark.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
 </wallpapers>
