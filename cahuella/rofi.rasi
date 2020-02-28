@@ -1,17 +1,27 @@
 /* global settings and color variables */
 * {
-   maincolor:        #8FBCBB;
-   highlight:        bold #88C0D0;
-   urgentcolor:      #88C0D0;
+   blue:             #81A1C1;
+   darkblue:         #5E81AC;
+   cyan:             #8FBCBB;
+   lightcyan:        #88C0D0;
+   green:            #A3BE8C;
+   red:              #BF616A;
+   orange:           #D08770;
 
-   fgwhite:          #5E81AC;
-   blackdarkest:     #2E3440;
-   blackwidget:      #2E3440;
-   blackentry:       #2E3440;
-   blackselect:      #2E3440;
-   darkgray:         #2E3440;
-   scrollbarcolor:   #2E3440;
+   dark1:            #2E3440;
+   dark2:            #3B4252;
+   dark3:            #434C5E;
+   dark4:            #4C566A;
+
+   blackdarkest:     @dark1;
+   blackwidget:      @dark1;
+   blackentry:       @dark1;
+   blackselect:      @dark2;
    background-color: @blackdarkest;
+   maincolor:        @blue;
+   highlight:        @cyan;
+   urgentcolor:      @red;
+   selectedcolor:    @lightcyan;
 }
 
 window {
@@ -19,13 +29,14 @@ window {
    width: 640px;
    padding: 10px;
    fullscreen: false;
+   border:  2px;
+   border-radius: 0px;
+   border-color: #3B4252;
 }
 
 mainbox {
    background-color: @blackdarkest;
    spacing:0px;
-   
-   
 }
 
 message {
@@ -34,7 +45,7 @@ message {
 }
 
 textbox {
-   text-color:@darkgray;
+   text-color:@dark2;
    background-color:@blackwidget;
 }
 
@@ -55,7 +66,7 @@ element {
 element normal.normal {
    padding: 0px 15px;
    background-color: @blackentry;
-   text-color: @fgwhite;
+   text-color: @darkblue;
 }
 
 element normal.urgent {
@@ -70,7 +81,7 @@ element normal.active {
 
 element selected.normal {
     background-color: @blackselect;
-    text-color:       #88C0D0;
+    text-color:       @selectedcolor;
 }
 
 element selected.urgent {
@@ -79,13 +90,13 @@ element selected.urgent {
 }
 
 element selected.active {
-    background-color: @blackdarkest;
-    text-color:       #A3BE8C;
+    background-color: @blackselect;
+    text-color:       @green;
 }
 
 element alternate.normal {
     background-color: @blackentry;
-    text-color:       @fgwhite;
+    text-color:       @darkblue;
 }
 
 element alternate.urgent {
@@ -110,7 +121,7 @@ mode-switcher {
 
 button {
    background-color: @blackwidget;
-   text-color:       @darkgray;
+   text-color:       @dark2;
 }
 
 button selected {
@@ -140,6 +151,7 @@ case-indicator {
    text-color:@maincolor;
    background-color:@blackwidget;
 }
+
 #textbox-prompt-colon {
 	padding:0px 0px;
     expand:     false;

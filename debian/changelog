@@ -1,3 +1,13 @@
+regolith-styles (2.3.4-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix window navigation garbage by removing workspace column.
+  * Add border to Rofi dialog for additional visual distinction from
+    background.
+  * Cleanup color definitions in cahuella rofi theme.
+  * Cleanup Xresource definitions. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 27 Feb 2020 20:52:53 -0800
+
 regolith-styles (2.3.3-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Add nord-dark wallpaper based on
