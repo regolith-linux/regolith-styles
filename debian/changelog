@@ -1,3 +1,10 @@
+regolith-styles (2.3.5-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix Rofi themes for all variants.
+  * Conoslidate color definitions for easier porting of Rofi theme. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 28 Feb 2020 20:29:26 -0800
+
 regolith-styles (2.3.4-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Fix window navigation garbage by removing workspace column.
