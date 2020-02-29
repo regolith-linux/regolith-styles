@@ -1,94 +1,162 @@
-/*
- * ROFI Regolith Dark Theme
- *
- * Based on https://github.com/DaveDavenport/rofi-themes/blob/master/User%20Themes/onedark.rasi
- * Based on OneDark.vim (https://github.com/joshdick/onedark.vim)
- */
-
-
+/* global settings and color variables */
 * {
-  base03:     #002b36;
-  base03t:    #002b36dd;
-  base02:     #073642;
-  base01:     #586e75;
-  base0:      #839496;
-  base1:      #93a1a1;
-  yellow:     #b58900;
-  red:	      #dc322f;
-  blue:       #268bd2;
-  cyan:       #2aa198;	
-  black:      #000000;
+   blue:             #a6e1ff;
+   darkblue:         #B48EAD;
+   cyan:             #95e6cb;
+   lightcyan:        #B48EAD;
+   green:            #cee6ac;
+   red:              #ff6666;
 
-  spacing: 0;
-  background-color: transparent;
+   dark1:            #1f2430;
+   dark2:            #292b30;
+   dark3:            #bfbab0;
+   dark4:            #bfbab0;
 
-  text-color: @base0;
+   light1:           #e6e1cf;
+
+   background-color: @dark1;
+   border-color:     @dark2;
+   text-color:       @dark3;
+   dark-text-color:  @dark4;
+   main-color:       @blue;
+   highlight:        @light1;
+   urgent-color:     @red;
+   selected-color:   @lightcyan;
 }
 
 window {
-  transparency: "real";
-  background-color: #222222ee;
+   background-color: @background-color;
+   width: 640px;
+   padding: 10px;
+   fullscreen: false;
+   border:  2px;
+   border-radius: 0px;
+   border-color: @border-color;
 }
 
 mainbox {
-  padding: 30% 30%;
-}
-
-inputbar {
-  margin: 0px 0px 20px 0px;
-  children: [prompt, textbox-prompt-colon, entry, case-indicator];
-}
-
-prompt {
-  text-color: @blue;
-}
-
-textbox-prompt-colon {
-  expand: false;
-  str: ":";
-  text-color: @base1;
-}
-
-entry {
-  margin: 0px 10px;
-}
-
-listview {
-  spacing: 5px;
-  dynamic: true;
-  scrollbar: false;
-}
-
-element {
-  padding: 5px;
-  text-color: @base1;
-  highlight: @yellow;
-  border-radius: 3px;
-}
-
-element selected {
-  background-color: @blue;
-  text-color: @black;
-}
-
-element urgent, element selected urgent {
-  text-color: @red;
-}
-
-element active, element selected active {
-  text-color: @yellow;
+   background-color: @background-color;
+   spacing:0px;
 }
 
 message {
-  padding: 5px;
-  border-radius: 3px;
-  background-color: @base02;
-  border: 1px;
-  border-color: @cyan;
+   padding: 6px 10px;
+   background-color: @background-color;
+}
+
+textbox {
+   text-color: @text-color;
+   background-color:@background-color;
+}
+
+listview {
+   fixed-height: true;
+   dynamic: true;
+   scrollbar: false;
+   spacing: 0px;
+   padding: 1px 0px 0px 0px;
+   margin: 0px 0px 1px 0px;
+   background: @background-color;
+}
+
+element {
+   padding: 4px 10px;
+}
+
+element normal.normal {
+   padding: 0px 15px;
+   background-color: @background-color;
+   text-color: @dark-text-color;
+}
+
+element normal.urgent {
+   background-color: @background-color;
+   text-color: @urgent-color;
+}
+
+element normal.active {
+   background-color: @background-color;
+   text-color: @main-color;
+}
+
+element selected.normal {
+    background-color: @border-color;
+    text-color:       @selected-color;
+}
+
+element selected.urgent {
+    background-color: @urgent-color;
+    text-color:       @background-color;
+}
+
+element selected.active {
+    background-color: @border-color;
+    text-color:       @green;
+}
+
+element alternate.normal {
+    background-color: @background-color;
+    text-color:       @dark-text-color;
+}
+
+element alternate.urgent {
+    background-color: @background-color;
+    text-color:       @urgent-color;
+}
+
+element alternate.active {
+    background-color: @background-color;
+    text-color:       @main-color;
+}
+
+scrollbar {
+   background-color: @background-color;
+   handle-color: @background-color;
+   handle-width: 0px;
+}
+
+mode-switcher {
+   background-color: @background-color;
+}
+
+button {
+   background-color: @background-color;
+   text-color:       @text-color;
 }
 
 button selected {
-  padding: 5px;
-  border-radius: 3px;
-  background-color: @base02;
+    text-color:       @main-color;
+}
+
+inputbar {
+   background-color: @background-color;
+   spacing: 0px;
+   children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+prompt {
+   padding:0px 10px;
+   background-color: @background-color;
+   text-color: @highlight;
+}
+
+entry {
+   padding:0px 6px;
+   background-color:@background-color;
+   text-color:@light1;
+}
+
+case-indicator {
+   padding:6px 10px;
+   text-color:@main-color;
+   background-color:@background-color;
+}
+
+#textbox-prompt-colon {
+	padding:0px 0px;
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @highlight;
+    background-color:@background-color;
 }

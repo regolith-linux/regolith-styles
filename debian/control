@@ -33,7 +33,7 @@ Description: Ayu Dark look
 
 Package: regolith-look-ayu-mirage
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, ayu-mirage-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
+Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu Mirage look
 
 Package: regolith-look-solarized-dark
