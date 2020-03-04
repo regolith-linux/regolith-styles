@@ -1,13 +1,13 @@
 #!/bin/bash
-#
-# This script will:
-# * refresh - Update the current session look based on Xresources values.
-# * stage - Copy Xresource and i3 config files in the user directory.
-# set -x
+# This is a helper script to perform common tasks with regolith looks.
 
 if [ "$#" -lt 1 ]; then
     echo "Usage: regolith-look <command>"
-    echo "Commands: refresh, stage, set <look>"
+    echo "Actions: "
+    echo "    refresh - Update the current session look based on Xresources values"
+    echo "    list - Display currently installed looks in the /etc/regolith/styles directory"
+    echo "    stage - Copy Xresource and i3 config files in the user directory"
+    echo "    set <look> - Write a global override file in the user dir to specify the desired look"
     exit 1
 fi
 
@@ -22,13 +22,17 @@ refresh() {
     # File Locations - System Defaults
     DEFAULT_XRESOURCE_FILE="/etc/regolith/styles/root"
 
-    # Avoid loading an early version of the Regolith Xresource file
-    BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
-    HASH=$(md5sum $USER_XRESOURCE_FILE | cut -d " " -f1)
-    if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
-        xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_FILE
-    else
+    if [ ! -f "$USER_XRESOURCE_FILE" ]; then
         xrdb -merge $DEFAULT_XRESOURCE_FILE
+    else
+        # Avoid loading an early version of the Regolith Xresource file
+        BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
+        HASH=$(md5sum $USER_XRESOURCE_FILE | cut -d " " -f1)
+        if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
+            xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_FILE
+        else
+            xrdb -merge $DEFAULT_XRESOURCE_FILE
+        fi
     fi
 
     # Check for user overrides of Xresources
@@ -48,7 +52,7 @@ refresh() {
     fi
 
     # restart i3-wm after merging Xresources
-    i3-msg restart
+    i3-msg -q restart
 }
 
 stage() {
@@ -87,6 +91,8 @@ elif [ "$COMMAND" == "set" ]; then
     else 
         set_look
     fi
+elif [ "$COMMAND" == "list" ]; then
+    find /etc/regolith/styles/ -maxdepth 1 -mindepth 1 -type d -printf '%f\n'
 else
     echo "Unrecognized command: $COMMAND"
     exit 1
