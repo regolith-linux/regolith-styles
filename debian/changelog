@@ -1,3 +1,10 @@
+regolith-styles (2.3.8) eoan; urgency=medium
+
+  * Fix i3-wm font specification.
+  * Dropping Ubuntu/Debian version suffix.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 Mar 2020 11:14:04 -0700
+
 regolith-styles (2.3.7-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Fix wallpaper refresh when relative path is specified. 
