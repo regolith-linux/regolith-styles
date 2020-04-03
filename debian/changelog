@@ -1,3 +1,9 @@
+regolith-styles (2.4.2) eoan; urgency=medium
+
+  * Add virtual package for looks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 10:33:54 -0700
+
 regolith-styles (2.4.1) eoan; urgency=medium
 
   * Use ayu-mirage-regolith as default look for R1.4. 
