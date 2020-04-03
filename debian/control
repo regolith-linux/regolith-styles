@@ -36,6 +36,11 @@ Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
 Description: Ayu Mirage look
 
+Package: regolith-look-ayu-mirage-regolith
+Architecture: any
+Depends: ${misc:Depends}, regolith-styles, ayu-theme, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
+Description: Ayu Mirage Regolith look
+
 Package: regolith-look-solarized-dark
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
