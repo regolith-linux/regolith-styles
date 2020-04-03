@@ -1,3 +1,9 @@
+regolith-styles (2.4.0ubuntu1) eoan; urgency=medium
+
+  * Use ayu-mirage-regolith as default look for R1.4. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 06:57:21 -0700
+
 regolith-styles (2.4.0) eoan; urgency=medium
 
   * Add ayu-mirage-regolith look 
