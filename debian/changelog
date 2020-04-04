@@ -1,3 +1,9 @@
+regolith-styles (2.4.7) eoan; urgency=medium
+
+  * Add dependency from regolith-styles to referenced look. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 12:17:01 -0700
+
 regolith-styles (2.4.6) eoan; urgency=medium
 
   * Fix typo found by @cheginit.

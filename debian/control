@@ -8,7 +8,8 @@ Homepage: https://regolith-linux.org
 
 Package: regolith-styles
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},
+    regolith-look-ayu-mirage-regolith
 Description: Theme and style definitions for Regolith Linux
 
 Package: regolith-look-cahuella
