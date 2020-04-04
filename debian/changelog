@@ -1,3 +1,9 @@
+regolith-styles (2.4.4) eoan; urgency=medium
+
+  * Font size tweaks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 23:14:09 -0700
+
 regolith-styles (2.4.3) eoan; urgency=medium
 
   * UI Tweaks to ayu-mirage-regolith. 
