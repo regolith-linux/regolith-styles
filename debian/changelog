@@ -1,4 +1,4 @@
-regolith-styles (2.4.4-1) eoan; urgency=medium
+regolith-styles (2.4.5) eoan; urgency=medium
 
   * Fix packaging of i3-wm Xres in ayu-mirage-regolith. 
 
