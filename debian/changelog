@@ -1,3 +1,9 @@
+regolith-styles (2.4.8) eoan; urgency=medium
+
+  * Revert 2.4.4's font size change based on peer review. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 12:53:41 -0700
+
 regolith-styles (2.4.7) eoan; urgency=medium
 
   * Add dependency from regolith-styles to referenced look. 
