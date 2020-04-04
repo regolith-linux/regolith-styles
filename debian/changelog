@@ -1,3 +1,9 @@
+regolith-styles (2.4.4-1) eoan; urgency=medium
+
+  * Fix packaging of i3-wm Xres in ayu-mirage-regolith. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 11:13:16 -0700
+
 regolith-styles (2.4.4) eoan; urgency=medium
 
   * Font size tweaks. 
