@@ -1,3 +1,9 @@
+regolith-styles (2.4.3) eoan; urgency=medium
+
+  * UI Tweaks to ayu-mirage-regolith. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 21:05:50 -0700
+
 regolith-styles (2.4.2) eoan; urgency=medium
 
   * Add virtual package for looks. 
