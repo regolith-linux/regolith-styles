@@ -1,8 +1,8 @@
-ayu-mirage-regolith/color /etc/regolith/styles/ayu-mirage-regolith
-ayu-mirage-regolith/typeface /etc/regolith/styles/ayu-mirage-regolith
-ayu-mirage-regolith/theme /etc/regolith/styles/ayu-mirage-regolith
-ayu-mirage-regolith/root /etc/regolith/styles/ayu-mirage-regolith
-ayu-mirage-regolith/rofi.rasi /etc/regolith/styles/ayu-mirage-regolith
-ayu-mirage-regolith/i3-wm /etc/regolith/styles/ayu-mirage-regolith
-ayu-mirage-regolith/joel-filipe-unsplash.jpg /usr/share/backgrounds
-ayu-mirage-regolith/ayu-mirage-regolith.xml /usr/share/gnome-background-properties
+lascaille/color /etc/regolith/styles/lascaille
+lascaille/typeface /etc/regolith/styles/lascaille
+lascaille/theme /etc/regolith/styles/lascaille
+lascaille/root /etc/regolith/styles/lascaille
+lascaille/rofi.rasi /etc/regolith/styles/lascaille
+lascaille/i3-wm /etc/regolith/styles/lascaille
+lascaille/joel-filipe-unsplash.jpg /usr/share/backgrounds
+lascaille/lascaille.xml /usr/share/gnome-background-properties

@@ -1,2 +1,2 @@
 ! -- This points to the default looks Xresource root file.
-#include "/etc/regolith/styles/ayu-mirage-regolith/root"
+#include "/etc/regolith/styles/lascaille/root"

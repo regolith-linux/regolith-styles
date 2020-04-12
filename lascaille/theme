@@ -1,7 +1,7 @@
 #define gtk_theme           Ayu-Mirage-Dark
 #define icon_theme          Moka
 #define desktop_wallpaper   /usr/share/backgrounds/joel-filipe-unsplash.jpg
-#define rofi_theme          /etc/regolith/styles/ayu-mirage-regolith/rofi.rasi
+#define rofi_theme          /etc/regolith/styles/lascaille/rofi.rasi
 
 #define i3wm_window_border_size         2
 #define i3wm_floatingwindow_border_size 2

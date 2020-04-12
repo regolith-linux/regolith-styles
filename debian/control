@@ -9,7 +9,7 @@ Homepage: https://regolith-linux.org
 Package: regolith-styles
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-    regolith-look-ayu-mirage-regolith
+    regolith-look-lascaille
 Description: Theme and style definitions for Regolith Linux
 
 Package: regolith-look-cahuella
@@ -42,10 +42,10 @@ Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font
 Description: Ayu Mirage look
 Provides: regolith-look
 
-Package: regolith-look-ayu-mirage-regolith
+Package: regolith-look-lascaille
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
-Description: Ayu Mirage Regolith look
+Description: Default R1.4 look based on Ayu Mirage and JetBrains Mono
 Provides: regolith-look
 
 Package: regolith-look-solarized-dark

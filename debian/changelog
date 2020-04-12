@@ -1,3 +1,10 @@
+regolith-styles (2.4.9) eoan; urgency=medium
+
+  * Add glyph for disk for i3xrocks-disk-capacity blocklet.
+  * Rename ayu-mirage-regolith to lascaille.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 14:02:45 -0700
+
 regolith-styles (2.4.8) eoan; urgency=medium
 
   * Revert 2.4.4's font size change based on peer review. 
