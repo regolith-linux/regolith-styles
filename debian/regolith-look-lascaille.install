@@ -4,5 +4,6 @@ lascaille/theme /etc/regolith/styles/lascaille
 lascaille/root /etc/regolith/styles/lascaille
 lascaille/rofi.rasi /etc/regolith/styles/lascaille
 lascaille/i3-wm /etc/regolith/styles/lascaille
+lascaille/st-term /etc/regolith/styles/lascaille
 lascaille/joel-filipe-unsplash.jpg /usr/share/backgrounds
 lascaille/lascaille.xml /usr/share/gnome-background-properties
