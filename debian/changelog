@@ -1,3 +1,9 @@
+regolith-styles (2.4.11) eoan; urgency=medium
+
+  * Fix install file. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 18:37:58 -0700
+
 regolith-styles (2.4.10) eoan; urgency=medium
 
   * Fix install for lascaille.
