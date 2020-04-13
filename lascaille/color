@@ -1,8 +1,8 @@
-! Ayu Mirage colors
+! Ayu Mirage colors - https://github.com/ayu-theme/ayu-colors
 #define color_base03   #1F2430
 #define color_base02   #292B30
 #define color_base01   #BFBAB0
-#define color_base00   #232834
+#define color_base00   #CBCCC6
 #define color_base0    #E6E1CF
 #define color_base1    #E6E1CF
 #define color_base2    #F28779
@@ -15,3 +15,6 @@
 #define color_blue     #73D0FF
 #define color_cyan     #95E6CB
 #define color_green    #BAE67E
+#define color_brown    #F29E74
+#define color_ltblue   #77A8D9
+#define color_ltgreen  #A6CC70

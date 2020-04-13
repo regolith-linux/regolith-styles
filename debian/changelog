@@ -1,3 +1,11 @@
+regolith-styles (2.4.10) eoan; urgency=medium
+
+  * Fix install for lascaille.
+  * Add colors to lascaille palette from ayu-mirage.
+  * Remap some colors for st-term for better visibility.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 18:28:37 -0700
+
 regolith-styles (2.4.9) eoan; urgency=medium
 
   * Add glyph for disk for i3xrocks-disk-capacity blocklet.
