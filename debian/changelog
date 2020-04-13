@@ -1,3 +1,9 @@
+regolith-styles (2.4.13-1) eoan; urgency=medium
+
+  * Add package metadata for package rename. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Apr 2020 09:33:50 -0700
+
 regolith-styles (2.4.12) eoan; urgency=medium
 
   * Fix renamed file. 

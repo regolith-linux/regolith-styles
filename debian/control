@@ -47,6 +47,8 @@ Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
 Description: Default R1.4 look based on Ayu Mirage and JetBrains Mono
 Provides: regolith-look
+Conflicts: regolith-look-ayu-mirage-regolith
+Replaces: regolith-look-ayu-mirage-regolith
 
 Package: regolith-look-solarized-dark
 Architecture: any
