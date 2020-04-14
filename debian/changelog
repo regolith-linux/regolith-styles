@@ -1,3 +1,10 @@
+regolith-styles (2.4.15-1) eoan; urgency=medium
+
+  * Fix color mappings for st-term.
+  * Use planetary wallpaper by default based on user feedback. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Apr 2020 19:59:02 -0700
+
 regolith-styles (2.4.14-1) eoan; urgency=medium
 
   * Fix package issue w/ st-term resource. 

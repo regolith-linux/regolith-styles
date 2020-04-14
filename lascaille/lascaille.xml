@@ -2,6 +2,12 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper>
+    <name>Regolith 3</name>
+    <filename>/usr/share/backgrounds/ESP_016895_1525_desktop.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+  <wallpaper>
     <name>Gray triangles on a facade</name>
     <filename>/usr/share/backgrounds/joel-filipe-unsplash.jpg</filename>
     <options>zoom</options>
