@@ -2,6 +2,7 @@
 #define icon_theme          Arc
 #define desktop_wallpaper   /usr/share/backgrounds/ESP_020528_1750_desktop.jpg
 #define rofi_theme          /etc/regolith/styles/solarized-dark/rofi.rasi
+#define theme_terminal_scrollbar false
 
 #define i3wm_window_border_size         1
 #define i3wm_floatingwindow_border_size 1

@@ -1,4 +1,6 @@
-gnome.gtk.theme:        gtk_theme
-gnome.wm.theme:         gtk_theme
-gnome.icon.theme:       icon_theme
-gnome.wallpaper:        desktop_wallpaper
+gnome.gtk.theme:          gtk_theme
+gnome.wm.theme:           gtk_theme
+gnome.icon.theme:         icon_theme
+gnome.wallpaper:          desktop_wallpaper
+gnome.terminal.font:      typeface_gnome_terminal
+gnome.terminal.scrollbar: theme_terminal_scrollbar

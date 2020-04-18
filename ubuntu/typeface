@@ -4,6 +4,7 @@
 #define typeface_bar        pango:FontAwesome 13
 #define typeface_rofi       Ubuntu Medium 16
 #define typeface_terminal   Ubuntu Mono:pixelsize=16:antialias=true:autohint=true
+#define typeface_gnome_terminal Ubuntu Mono 12
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 

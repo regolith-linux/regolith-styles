@@ -4,6 +4,7 @@
 #define typeface_bar        pango:JetBrains Mono Medium 13, Material Design Icons 13
 #define typeface_rofi       JetBrains Mono Medium 16
 #define typeface_terminal   JetBrains Mono:pixelsize=16:antialias=true:autohint=true
+#define typeface_gnome_terminal JetBrains Mono 12
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 

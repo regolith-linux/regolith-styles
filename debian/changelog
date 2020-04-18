@@ -1,3 +1,9 @@
+regolith-styles (2.4.16-1) eoan; urgency=medium
+
+  * Add font and scrollbar entries for gnome-terminal for all looks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 17 Apr 2020 18:24:29 -0700
+
 regolith-styles (2.4.15-1) eoan; urgency=medium
 
   * Fix color mappings for st-term.
