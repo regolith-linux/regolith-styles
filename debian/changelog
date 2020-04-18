@@ -1,3 +1,9 @@
+regolith-styles (2.4.18-1) eoan; urgency=medium
+
+  * Update terminal when look refreshed. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 18 Apr 2020 12:08:44 -0700
+
 regolith-styles (2.4.17-1) eoan; urgency=medium
 
   * Fix terminal scrollbar setting value. 
