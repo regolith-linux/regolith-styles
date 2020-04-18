@@ -2,7 +2,7 @@
 #define icon_theme          Arc
 #define desktop_wallpaper   
 #define rofi_theme          /etc/regolith/styles/ayu-mirage/rofi.rasi
-#define theme_terminal_scrollbar false
+#define theme_terminal_scrollbar never
 
 #define i3wm_window_border_size         1
 #define i3wm_floatingwindow_border_size 1

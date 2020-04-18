@@ -1,3 +1,9 @@
+regolith-styles (2.4.17-1) eoan; urgency=medium
+
+  * Fix terminal scrollbar setting value. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 18 Apr 2020 11:30:56 -0700
+
 regolith-styles (2.4.16-1) eoan; urgency=medium
 
   * Add font and scrollbar entries for gnome-terminal for all looks. 
