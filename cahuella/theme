@@ -1,5 +1,5 @@
 #define gtk_theme           Cahuella
-#define icon_theme          Paper
+#define icon_theme          Arc
 #define desktop_wallpaper   /usr/share/backgrounds/regolith-structure-7.png
 #define rofi_theme          /etc/regolith/styles/cahuella/rofi.rasi
 #define theme_terminal_scrollbar never

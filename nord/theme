@@ -1,5 +1,5 @@
 #define gtk_theme           Nordic
-#define icon_theme          Paper
+#define icon_theme          Arc
 #define desktop_wallpaper   /usr/share/backgrounds/luca-bravo-xnqVGsbXgV4-unsplash.jpg
 #define rofi_theme          /etc/regolith/styles/nord/rofi.rasi
 #define theme_terminal_scrollbar never
