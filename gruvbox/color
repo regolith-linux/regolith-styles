@@ -1,0 +1,24 @@
+! Gruvbox colors - https://github.com/morhetz/gruvbox
+#define color_base03   #282828
+#define color_base02   #3c3836
+#define color_base01   #504945
+#define color_base00   #665c54
+#define color_base0    #a89984
+#define color_base1    #bdae93
+#define color_base2    #d5c4a1
+#define color_base3    #ebdbb2
+#define color_gray     #928374
+#define color_red      #cc241d
+#define color_green    #98971a
+#define color_yellow   #d79921
+#define color_blue     #458588
+#define color_violet   #b16286
+#define color_cyan     #689d6a
+#define color_orange   #d65d0e
+#define color_ltred    #fb4934
+#define color_ltgreen  #b8bb26
+#define color_ltyellow #fabd2f
+#define color_ltblue   #83a598
+#define color_magenta  #d3869b
+#define color_ltcyan   #8ec07c
+#define color_brown    #fe8019
