@@ -4,4 +4,5 @@ cahuella/theme /etc/regolith/styles/cahuella
 cahuella/root /etc/regolith/styles/cahuella
 cahuella/rofi.rasi /etc/regolith/styles/cahuella
 cahuella/regolith-structure-7.png /usr/share/backgrounds
+cahuella/nord-dark.png /usr/share/backgrounds
 cahuella/regolith-cahuella.xml /usr/share/gnome-background-properties

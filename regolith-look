@@ -1,13 +1,13 @@
 #!/bin/bash
-#
-# This script will:
-# * refresh - Update the current session look based on Xresources values.
-# * stage - Copy Xresource and i3 config files in the user directory.
-# set -x
+# This is a helper script to perform common tasks with regolith looks.
 
 if [ "$#" -lt 1 ]; then
     echo "Usage: regolith-look <command>"
-    echo "Commands: refresh, stage, set <look>"
+    echo "Actions: "
+    echo "    refresh - Update the current session look based on Xresources values"
+    echo "    list - Display currently installed looks in the /etc/regolith/styles directory"
+    echo "    stage - Copy Xresource and i3 config files in the user directory"
+    echo "    set <look> - Write a global override file in the user dir to specify the desired look"
     exit 1
 fi
 
@@ -16,21 +16,28 @@ COMMAND=$1
 refresh() {
     # File Locations - Optional User Overrides
     USER_XRESOURCE_FILE="$HOME/.Xresources-regolith"
+    USER_XRESOURCE_OVERRIDE_FILE="$HOME/.config/regolith/Xresources"
+    USER_XRESOURCE_SEARCH_PATH="$HOME/.config/regolith/Xresources.d"
 
     # File Locations - System Defaults
     DEFAULT_XRESOURCE_FILE="/etc/regolith/styles/root"
 
-    # Avoid loading an early version of the Regolith Xresource file
-    BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
-    if [ -f "$USER_XRESOURCE_FILE" ]; then
-    	HASH=`md5sum $USER_XRESOURCE_FILE | cut -d " " -f1`
-    else
-	HASH=""
-    fi
-    if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
-        xrdb -merge $USER_XRESOURCE_FILE 
-    else
+    if [ ! -f "$USER_XRESOURCE_FILE" ]; then
         xrdb -merge $DEFAULT_XRESOURCE_FILE
+    else
+        # Avoid loading an early version of the Regolith Xresource file
+        BAD_XRES_HASH="6797c718fc4767653878ef9db5f68017"
+        HASH=$(md5sum $USER_XRESOURCE_FILE | cut -d " " -f1)
+        if [ -f "$USER_XRESOURCE_FILE" -a "$HASH" != "$BAD_XRES_HASH" ]; then
+            xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_FILE
+        else
+            xrdb -merge $DEFAULT_XRESOURCE_FILE
+        fi
+    fi
+
+    # Check for user overrides of Xresources
+    if [ -f "$USER_XRESOURCE_OVERRIDE_FILE" ]; then
+        xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_OVERRIDE_FILE
     fi
 
     # Set the theme from Xresources values.
@@ -41,11 +48,15 @@ refresh() {
     # Set the wallpaper
     WALLPAPER_FILE=$(xrescat gnome.wallpaper)
     if [[ ! -z $WALLPAPER_FILE ]]; then
-            gsettings set org.gnome.desktop.background picture-uri "file://$WALLPAPER_FILE"
+        gsettings set org.gnome.desktop.background picture-uri "file://$(eval echo $WALLPAPER_FILE)"
+    fi
+
+    if [ -f "/usr/bin/create-regolith-term-profile" ]; then
+        /usr/bin/create-regolith-term-profile
     fi
 
     # restart i3-wm after merging Xresources
-    i3-msg restart
+    i3-msg -q restart
 }
 
 stage() {
@@ -84,6 +95,8 @@ elif [ "$COMMAND" == "set" ]; then
     else 
         set_look
     fi
+elif [ "$COMMAND" == "list" ]; then
+    find /etc/regolith/styles/ -maxdepth 1 -mindepth 1 -type d -printf '%f\n'
 else
     echo "Unrecognized command: $COMMAND"
     exit 1

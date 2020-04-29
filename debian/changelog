@@ -1,3 +1,192 @@
+regolith-styles (2.4.19-1) eoan; urgency=medium
+
+  * Move from Paper to Arc icon theme for cahuella and nord due to issues
+    found in 20.04. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 19 Apr 2020 09:57:02 -0700
+
+regolith-styles (2.4.18-1) eoan; urgency=medium
+
+  * Update terminal when look refreshed. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 18 Apr 2020 12:08:44 -0700
+
+regolith-styles (2.4.17-1) eoan; urgency=medium
+
+  * Fix terminal scrollbar setting value. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 18 Apr 2020 11:30:56 -0700
+
+regolith-styles (2.4.16-1) eoan; urgency=medium
+
+  * Add font and scrollbar entries for gnome-terminal for all looks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 17 Apr 2020 18:24:29 -0700
+
+regolith-styles (2.4.15-1) eoan; urgency=medium
+
+  * Fix color mappings for st-term.
+  * Use planetary wallpaper by default based on user feedback. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Apr 2020 19:59:02 -0700
+
+regolith-styles (2.4.14-1) eoan; urgency=medium
+
+  * Fix package issue w/ st-term resource. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Apr 2020 12:18:07 -0700
+
+regolith-styles (2.4.13-1) eoan; urgency=medium
+
+  * Add package metadata for package rename. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Apr 2020 09:33:50 -0700
+
+regolith-styles (2.4.12) eoan; urgency=medium
+
+  * Fix renamed file. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 19:56:48 -0700
+
+regolith-styles (2.4.11) eoan; urgency=medium
+
+  * Fix install file. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 18:37:58 -0700
+
+regolith-styles (2.4.10) eoan; urgency=medium
+
+  * Fix install for lascaille.
+  * Add colors to lascaille palette from ayu-mirage.
+  * Remap some colors for st-term for better visibility.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 18:28:37 -0700
+
+regolith-styles (2.4.9) eoan; urgency=medium
+
+  * Add glyph for disk for i3xrocks-disk-capacity blocklet.
+  * Rename ayu-mirage-regolith to lascaille.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 12 Apr 2020 14:02:45 -0700
+
+regolith-styles (2.4.8) eoan; urgency=medium
+
+  * Revert 2.4.4's font size change based on peer review. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 12:53:41 -0700
+
+regolith-styles (2.4.7) eoan; urgency=medium
+
+  * Add dependency from regolith-styles to referenced look. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 12:17:01 -0700
+
+regolith-styles (2.4.6) eoan; urgency=medium
+
+  * Fix typo found by @cheginit.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 12:05:04 -0700
+
+regolith-styles (2.4.5) eoan; urgency=medium
+
+  * Fix packaging of i3-wm Xres in ayu-mirage-regolith. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Apr 2020 11:13:16 -0700
+
+regolith-styles (2.4.4) eoan; urgency=medium
+
+  * Font size tweaks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 23:14:09 -0700
+
+regolith-styles (2.4.3) eoan; urgency=medium
+
+  * UI Tweaks to ayu-mirage-regolith. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 21:05:50 -0700
+
+regolith-styles (2.4.2) eoan; urgency=medium
+
+  * Add virtual package for looks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 10:33:54 -0700
+
+regolith-styles (2.4.1) eoan; urgency=medium
+
+  * Use ayu-mirage-regolith as default look for R1.4. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 06:57:21 -0700
+
+regolith-styles (2.4.0) eoan; urgency=medium
+
+  * Add ayu-mirage-regolith look 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Apr 2020 06:50:06 -0700
+
+regolith-styles (2.3.9) eoan; urgency=medium
+
+  * Fix Rofi icon specification. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 Mar 2020 18:07:11 -0700
+
+regolith-styles (2.3.8) eoan; urgency=medium
+
+  * Fix i3-wm font specification.
+  * Dropping Ubuntu/Debian version suffix.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 Mar 2020 11:14:04 -0700
+
+regolith-styles (2.3.7-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix wallpaper refresh when relative path is specified. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 07 Mar 2020 07:29:18 -0800
+
+regolith-styles (2.3.6-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix error message when ~/.Xresources-regolith does not exist.
+  * Squelch output of i3-msg.
+  * Add action to list installed looks.
+  * General cleanup. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 03 Mar 2020 21:17:25 -0800
+
+regolith-styles (2.3.5-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix Rofi themes for all variants.
+  * Conoslidate color definitions for easier porting of Rofi theme. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 28 Feb 2020 20:29:26 -0800
+
+regolith-styles (2.3.4-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Fix window navigation garbage by removing workspace column.
+  * Add border to Rofi dialog for additional visual distinction from
+    background.
+  * Cleanup color definitions in cahuella rofi theme.
+  * Cleanup Xresource definitions. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 27 Feb 2020 20:52:53 -0800
+
+regolith-styles (2.3.3-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add nord-dark wallpaper based on
+    https://www.reddit.com/r/unixporn/comments/ehdj6b/i3gaps_nordic_beauty. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 26 Feb 2020 20:23:09 -0800
+
+regolith-styles (2.3.2-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Integrate new Xres overrides logic from regolith-gnome-flashback. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 15 Feb 2020 19:08:39 -0800
+
+regolith-styles (2.3.1-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Take @cheginit's fix, apply to other looks. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 15 Feb 2020 17:56:07 -0800
+
 regolith-styles (2.3.0-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Specify i3wm gaps, border, and bar position in Xresources. 

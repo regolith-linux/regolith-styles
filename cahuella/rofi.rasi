@@ -1,41 +1,52 @@
 /* global settings and color variables */
 * {
-   maincolor:        #8FBCBB;
-   highlight:        bold #88C0D0;
-   urgentcolor:      #88C0D0;
+   blue:             #81A1C1;
+   darkblue:         #5E81AC;
+   cyan:             #8FBCBB;
+   lightcyan:        #88C0D0;
+   green:            #A3BE8C;
+   red:              #BF616A;
 
-   fgwhite:          #5E81AC;
-   blackdarkest:     #2E3440;
-   blackwidget:      #2E3440;
-   blackentry:       #2E3440;
-   blackselect:      #2E3440;
-   darkgray:         #2E3440;
-   scrollbarcolor:   #2E3440;
-   background-color: @blackdarkest;
+   dark1:            #2E3440;
+   dark2:            #3B4252;
+   dark3:            #434C5E;
+   dark4:            #4C566A;
+
+   light1:           #D8DEE9;
+
+   background-color: @dark1;
+   border-color:     @dark2;
+   text-color:       @dark3;
+   dark-text-color:  @darkblue;
+   main-color:       @blue;
+   highlight:        @cyan;
+   urgent-color:     @red;
+   selected-color:   @lightcyan;
 }
 
 window {
-   background-color: @blackdarkest;
+   background-color: @background-color;
    width: 640px;
    padding: 10px;
    fullscreen: false;
+   border:  2px;
+   border-radius: 0px;
+   border-color: @border-color;
 }
 
 mainbox {
-   background-color: @blackdarkest;
+   background-color: @background-color;
    spacing:0px;
-   
-   
 }
 
 message {
    padding: 6px 10px;
-   background-color:@blackwidget;
+   background-color: @background-color;
 }
 
 textbox {
-   text-color:@darkgray;
-   background-color:@blackwidget;
+   text-color: @text-color;
+   background-color:@background-color;
 }
 
 listview {
@@ -45,7 +56,7 @@ listview {
    spacing: 0px;
    padding: 1px 0px 0px 0px;
    margin: 0px 0px 1px 0px;
-   background: @blackdarkest;
+   background: @background-color;
 }
 
 element {
@@ -54,97 +65,98 @@ element {
 
 element normal.normal {
    padding: 0px 15px;
-   background-color: @blackentry;
-   text-color: @fgwhite;
+   background-color: @background-color;
+   text-color: @dark-text-color;
 }
 
 element normal.urgent {
-   background-color: @blackentry;
-   text-color: @urgentcolor;
+   background-color: @background-color;
+   text-color: @urgent-color;
 }
 
 element normal.active {
-   background-color: @blackentry;
-   text-color: @maincolor;
+   background-color: @background-color;
+   text-color: @main-color;
 }
 
 element selected.normal {
-    background-color: @blackselect;
-    text-color:       #88C0D0;
+    background-color: @border-color;
+    text-color:       @selected-color;
 }
 
 element selected.urgent {
-    background-color: @urgentcolor;
-    text-color:       @blackdarkest;
+    background-color: @urgent-color;
+    text-color:       @background-color;
 }
 
 element selected.active {
-    background-color: @blackdarkest;
-    text-color:       #A3BE8C;
+    background-color: @border-color;
+    text-color:       @green;
 }
 
 element alternate.normal {
-    background-color: @blackentry;
-    text-color:       @fgwhite;
+    background-color: @background-color;
+    text-color:       @dark-text-color;
 }
 
 element alternate.urgent {
-    background-color: @blackentry;
-    text-color:       @urgentcolor;
+    background-color: @background-color;
+    text-color:       @urgent-color;
 }
 
 element alternate.active {
-    background-color: @blackentry;
-    text-color:       @maincolor;
+    background-color: @background-color;
+    text-color:       @main-color;
 }
 
 scrollbar {
-   background-color: @blackwidget;
-   handle-color: @blackdarkest;
-   handle-width: 15px;
+   background-color: @background-color;
+   handle-color: @background-color;
+   handle-width: 0px;
 }
 
 mode-switcher {
-   background-color: @blackwidget;
+   background-color: @background-color;
 }
 
 button {
-   background-color: @blackwidget;
-   text-color:       @darkgray;
+   background-color: @background-color;
+   text-color:       @text-color;
 }
 
 button selected {
-    text-color:       @maincolor;
+    text-color:       @main-color;
 }
 
 inputbar {
-   background-color: @blackdarkest;
+   background-color: @background-color;
    spacing: 0px;
    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
 }
 
 prompt {
    padding:0px 10px;
-   background-color: @blackwidget;
-   text-color: #8FBCBB;
+   background-color: @background-color;
+   text-color: @highlight;
 }
 
 entry {
    padding:0px 6px;
-   background-color:@blackwidget;
-   text-color:#D8DEE9;
+   background-color:@background-color;
+   text-color:@light1;
 }
 
 case-indicator {
    padding:6px 10px;
-   text-color:@maincolor;
-   background-color:@blackwidget;
+   text-color:@main-color;
+   background-color:@background-color;
 }
+
 #textbox-prompt-colon {
 	padding:0px 0px;
     expand:     false;
     str:        ":";
     margin:     0px 0.3em 0em 0em ;
-    text-color: #8FBCBB;
-    background-color:@blackwidget;
+    text-color: @highlight;
+    background-color:@background-color;
 }

@@ -1,2 +1,2 @@
-! -- This points to the root Xresource file.
-#include "/etc/regolith/styles/cahuella/root"
+! -- This points to the default looks Xresource root file.
+#include "/etc/regolith/styles/lascaille/root"

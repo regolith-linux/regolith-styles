@@ -1,9 +1,10 @@
 ! Typeface: Ubuntu
 #define typeface_bar_glyph  Ubuntu Mono 14
-#define typeface_wm         Ubuntu Medium 16
+#define typeface_wm         pango:Ubuntu Medium 16
 #define typeface_bar        pango:FontAwesome 13
 #define typeface_rofi       Ubuntu Medium 16
 #define typeface_terminal   Ubuntu Mono:pixelsize=16:antialias=true:autohint=true
+#define typeface_gnome_terminal Ubuntu Mono 12
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
@@ -20,6 +21,7 @@
 #define typeface_bar_glyph_battery_unknown 
 #define typeface_bar_glyph_time 
 #define typeface_bar_glyph_workspace 
+#define typeface_bar_glyph_disk 
 
 #define typeface_bar_glyph_media_playing 
 #define typeface_bar_glyph_media_paused 
