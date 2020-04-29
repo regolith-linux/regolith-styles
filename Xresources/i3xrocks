@@ -30,6 +30,7 @@ i3xrocks.label.time: typeface_bar_glyph_time
 
 i3xrocks.label.mediaplaying: typeface_bar_glyph_media_playing
 i3xrocks.label.mediapaused: typeface_bar_glyph_media_paused
+i3xrocks.value.mediaplayerwidth: 25
 
 i3xrocks.label.notify.none: typeface_bar_glyph_notify_none
 i3xrocks.label.notify.some: typeface_bar_glyph_notify_some
