@@ -1,7 +1,7 @@
-rofi.theme:             rofi_theme
-rofi.font:              typeface_rofi
-rofi.show-icons:        true
-rofi.drun-icon-theme:   icon_theme
-rofi.drun-display-format: {name}
-rofi.window-format: 	\ {n} {t}
-rofi.modi:		window,drun,run
+rofi.theme:                 rofi_theme
+rofi.font:                  typeface_rofi
+rofi.show-icons:            true
+rofi.icon-theme:            icon_theme
+rofi.drun-display-format:   {name}
+rofi.window-format:         \ {n} {t}
+rofi.modi:                  window,drun,run
