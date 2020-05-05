@@ -40,6 +40,11 @@ refresh() {
         xrdb -I$USER_XRESOURCE_SEARCH_PATH -merge $USER_XRESOURCE_OVERRIDE_FILE
     fi
 
+    # Change the quotes in workspace names from double to to single.
+    # Due to a limitation of the preprocessor they have double quotes.
+    # The i3-wm workspace command fails with double quotes in the name
+    xrdb -query |grep i3-wm.workspace.|sed "s/\"/'/g"|xrdb -merge
+
     # Set the theme from Xresources values.
     gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Adwaita`"
     gsettings set org.gnome.desktop.wm.preferences theme "`xrescat gnome.wm.theme Adwaita`"
@@ -64,7 +69,7 @@ stage() {
     cp -b /etc/regolith/i3/config $HOME/.config/regolith/i3/
     cp -b /etc/regolith/styles/root $HOME/.Xresources-regolith
 
-    echo "Files $HOME/.config/regolith/i3/config and $HOME/.Xresources-regolith have been created, log back in for them to take effect." 
+    echo "Files $HOME/.config/regolith/i3/config and $HOME/.Xresources-regolith have been created, log back in for them to take effect."
 }
 
 set_look() {
@@ -89,10 +94,10 @@ elif [ "$COMMAND" == "stage" ]; then
     stage
 elif [ "$COMMAND" == "set" ]; then
     LOOK=$2
-    if [ -z $LOOK ]; then 
+    if [ -z $LOOK ]; then
         echo "Must specify a look to set."
         exit 1
-    else 
+    else
         set_look
     fi
 elif [ "$COMMAND" == "list" ]; then
