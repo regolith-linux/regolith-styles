@@ -42,3 +42,5 @@
 
 #define typeface_bar_glyph_numlock 
 #define typeface_bar_glyph_capslock 
+
+#define typeface_bar_glyph_error 

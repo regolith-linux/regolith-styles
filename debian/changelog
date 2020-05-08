@@ -1,3 +1,10 @@
+regolith-styles (2.4.21-1) eoan; urgency=medium
+
+  * Add glyph for status error state.
+  * Use error state glyph for weather error icon. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 07 May 2020 21:58:00 -0700
+
 regolith-styles (2.4.20-1) eoan; urgency=medium
 
   * Fix xres icon setting. 

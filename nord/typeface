@@ -40,3 +40,5 @@
 
 #define typeface_bar_glyph_numlock N
 #define typeface_bar_glyph_capslock C
+
+#define typeface_bar_glyph_error 
