@@ -43,7 +43,7 @@ refresh() {
     # Change the quotes in workspace names from double to to single.
     # Due to a limitation of the preprocessor they have double quotes.
     # The i3-wm workspace command fails with double quotes in the name
-    xrdb -query |grep i3-wm.workspace.|sed "s/\"/'/g"|xrdb -merge
+    xrdb -query | grep i3-wm.workspace. | sed "s/\"/'/g" | xrdb -merge
 
     # Set the theme from Xresources values.
     gsettings set org.gnome.desktop.interface gtk-theme "`xrescat gnome.gtk.theme Adwaita`"
