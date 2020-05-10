@@ -1,4 +1,4 @@
-regolith-styles (2.4.22-1) ; urgency=medium
+regolith-styles (2.4.22-1) focal; urgency=medium
 
   * Package @jensens fix for double quotes in workspace name. 
 
