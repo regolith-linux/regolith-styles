@@ -1,3 +1,10 @@
+regolith-styles (2.4.23-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add gbp conf file, cleanup.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 06 Jun 2020 10:52:37 -0700
+
 regolith-styles (2.4.22-1) focal; urgency=medium
 
   * Package @jensens fix for double quotes in workspace name. 

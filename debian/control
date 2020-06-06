@@ -8,57 +8,69 @@ Homepage: https://regolith-linux.org
 
 Package: regolith-styles
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
-    regolith-look-lascaille
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Theme and style definitions for Regolith Linux
+ Provides common Xresource files that can be shared among Regolith Looks.
 
 Package: regolith-look-cahuella
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, cahuella, fonts-materialdesignicons-webfont, fonts-source-code-pro-ttf
-Description: Regolith R1.3 look
 Provides: regolith-look
+Description: Regolith R1.3 look
+ Cahuella is a Nord based look with Materal Design icons.
 
 Package: regolith-look-nord
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Regolith R1.2 look
 Provides: regolith-look
+Description: Regolith R1.2 look
+ Nord Look takes the default fontawesome solarized theme but changes 
+ the color scheme to Nord.
 
 Package: regolith-look-ayu
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Ayu look
 Provides: regolith-look
+Description: Ayu look
+ Ayu is a light color theme with bold colors and the fontawesome icons.
 
 Package: regolith-look-ayu-dark
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Ayu Dark look
 Provides: regolith-look
+Description: Ayu Dark look
+ Ayu Dark is a dark color theme with bold colors and fontawesome icons.
 
 Package: regolith-look-ayu-mirage
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, arc-icon-theme, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Ayu Mirage look
 Provides: regolith-look
+Description: Ayu Mirage look
+ Ayu Mirage is a dark but lighter than ayu-dark theme with fontawesome icons.
 
 Package: regolith-look-lascaille
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, ayu-theme, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
-Description: Default R1.4 look based on Ayu Mirage and JetBrains Mono
 Provides: regolith-look
 Conflicts: regolith-look-ayu-mirage-regolith
 Replaces: regolith-look-ayu-mirage-regolith
+Description: Default R1.4 look based on Ayu Mirage and JetBrains Mono
+ Based on Ayu Mirage, this look includes Material Design icons and
+ visual tweaks to Rofi and i3.
 
 Package: regolith-look-solarized-dark
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
-Description: Solarized Dark look
 Conflicts: regolith-assets
 Provides: regolith-look
+Description: Solarized Dark look
+ A Regolith look featuring the Solarized Dark color palette and
+ fontawesome icons. This is the original Regolith theme.
 
 Package: regolith-look-ubuntu
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, adwaita-icon-theme, fonts-font-awesome, fonts-ubuntu, ubuntu-wallpapers
-Description: Ubuntu look for Ubuntu style
 Provides: regolith-look
+Description: Ubuntu look for Ubuntu style
+ A Ubuntu-themed look that tries to maintain the default Ubuntu feel
+ while integrating the Regolith UI.
