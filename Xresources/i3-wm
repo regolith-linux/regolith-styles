@@ -54,7 +54,7 @@ i3-wm.gaps.outer.size: i3wm_gaps_outer_size
 
 #define glyph_font QUOTE(typeface_bar_glyph)
 
-#define WORKSPACE_NAME(INDEX, FONT, COLOR, GLYPH) INDEX:<span font_desc=FONT> INDEX </span><span foreground=COLOR>GLYPH</span><span font_desc=FONT> </span>
+#define WORKSPACE_NAME(INDEX, FONT, COLOR, GLYPH) INDEX:<span> </span><span font_desc=FONT>INDEX </span><span foreground=COLOR>GLYPH</span><span> </span>
 
 i3-wm.workspace.01.name: WORKSPACE_NAME(1, glyph_font, QUOTE(color_blue), glyph)
 i3-wm.workspace.02.name: WORKSPACE_NAME(2, glyph_font, QUOTE(color_cyan), glyph)
