@@ -1,3 +1,10 @@
+regolith-styles (2.4.24-1) bionic; urgency=medium
+
+  [ Chua Hou ]
+  * Balance workspace name by adding space at end (#20)
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 19 Jul 2020 08:08:50 -0700
+
 regolith-styles (2.4.23-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
