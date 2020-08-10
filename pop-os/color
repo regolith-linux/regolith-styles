@@ -1,0 +1,17 @@
+! Pop Colors
+#define color_base03   #333333
+#define color_base02   #88807C
+#define color_base01   #88807C
+#define color_base00   #F2F2F2
+#define color_base0    #D3D7CF
+#define color_base1    #F2F2F2
+#define color_base2    #EEEEEC
+#define color_base3    #F2F2F2
+#define color_yellow   #C4A000
+#define color_orange   #F15D22
+#define color_red      #CC0000
+#define color_magenta  #75507B
+#define color_violet   #AD7FA8
+#define color_blue     #3465A4
+#define color_cyan     #06989A
+#define color_green    #4E9A06
