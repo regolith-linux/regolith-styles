@@ -74,3 +74,10 @@ Provides: regolith-look
 Description: Ubuntu look for Ubuntu style
  A Ubuntu-themed look that tries to maintain the default Ubuntu feel
  while integrating the Regolith UI.
+
+Package: regolith-look-gruvbox
+Architecture: any
+Depends: ${misc:Depends}, regolith-styles, gruvbox-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
+Provides: regolith-look
+Description: User contributed gruvbox theme
+ Colors based on https://githu

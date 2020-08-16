@@ -1,0 +1,5 @@
+gruvbox/color /etc/regolith/styles/gruvbox
+gruvbox/typeface /etc/regolith/styles/gruvbox
+gruvbox/theme /etc/regolith/styles/gruvbox
+gruvbox/root /etc/regolith/styles/gruvbox
+gruvbox/rofi.rasi /etc/regolith/styles/gruvbox

@@ -1,3 +1,13 @@
+regolith-styles (2.4.25-1) bionic; urgency=medium
+
+  [ Ekans ]
+  * Create gruvbox style (#25)
+
+  [ Ken Gilmer ]
+  * Add packaging for gruvbox.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 16 Aug 2020 16:55:15 -0700
+
 regolith-styles (2.4.24-1) bionic; urgency=medium
 
   [ Chua Hou ]
