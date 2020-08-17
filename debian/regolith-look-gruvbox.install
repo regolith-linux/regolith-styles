@@ -4,4 +4,4 @@ gruvbox/theme /etc/regolith/styles/gruvbox
 gruvbox/root /etc/regolith/styles/gruvbox
 gruvbox/rofi.rasi /etc/regolith/styles/gruvbox
 gruvbox/i3-wm /etc/regolith/styles/gruvbox
-gruvgox/st-term /etc/regolith/styles/gruvbox
+gruvbox/st-term /etc/regolith/styles/gruvbox
