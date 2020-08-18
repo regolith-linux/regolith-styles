@@ -1,0 +1,20 @@
+! Dracula colors - https://github.com/dracula/dracula-theme
+#define color_base01   #44475a
+#define color_base00   #282a36
+#define color_base0    #f8f8f2
+#define color_base1    #f8f8f2
+#define color_yellow   #f1fa8c
+#define color_orange   #ffb86c
+#define color_red      #ff5555
+#define color_pink     #ff79c6
+#define color_purple   #bd93f9
+#define color_blue     #6272a4
+#define color_cyan     #8be9fd
+#define color_green    #50fa7b
+#define color_pink2    #e356a7
+#define color_green2   #42e66C
+#define color_yellow2  #E4F34A
+#define color_purple2  #9B6BDF
+#define color_red2     #E64747
+#define color_cyan2    #75D7EC
+#define color_orange2  #EFA554

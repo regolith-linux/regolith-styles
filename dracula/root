@@ -1,0 +1,16 @@
+! -- Styles - Colors
+#include "/home/drew/.local/config/regolith/styles/dracula/color"
+
+! -- Styles - Fonts
+#include "/home/drew/.local/config/regolith/styles/dracula/typeface"
+
+! -- Styles - Theme
+#include "/home/drew/.local/config/regolith/styles/dracula/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "/home/drew/.local/config/regolith/styles/dracula/st-term"
+#include "/home/drew/.local/config/regolith/styles/dracula/i3-wm"
+#include "/home/drew/.local/config/regolith/styles/i3xrocks"
+#include "/home/drew/.local/config/regolith/styles/rofi"
+#include "/home/drew/.local/config/regolith/styles/gnome"
