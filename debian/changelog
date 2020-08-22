@@ -1,3 +1,13 @@
+regolith-styles (2.6.0-1) bionic; urgency=medium
+
+  [ Drew DeVore ]
+  * Create Dracula Theme (#30)
+
+  [ Julius Francisco ]
+  * Remove user specific path (#31)
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 22 Aug 2020 09:21:34 -0700
+
 regolith-styles (2.4.27-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
