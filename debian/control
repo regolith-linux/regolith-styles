@@ -80,4 +80,11 @@ Architecture: any
 Depends: ${misc:Depends}, regolith-styles, gruvbox-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
 Provides: regolith-look
 Description: User contributed gruvbox theme
- Colors based on https://githu
+ Colors based on https://github.com/morhetz/gruvbox
+
+Package: regolith-look-dracula
+Architecture: any
+Depends: ${misc:Depends}, regolith-styles, dracula-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
+Provides: regolith-look
+Description: User contributed Dracula theme
+ Colors based on https://draculatheme.com/gtk

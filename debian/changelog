@@ -1,3 +1,10 @@
+regolith-styles (2.6.1-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Package the dracula look.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 22 Aug 2020 19:37:56 -0700
+
 regolith-styles (2.6.0-1) bionic; urgency=medium
 
   [ Drew DeVore ]

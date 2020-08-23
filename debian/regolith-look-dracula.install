@@ -1,0 +1,7 @@
+dracula/color /etc/regolith/styles/dracula
+dracula/typeface /etc/regolith/styles/dracula
+dracula/theme /etc/regolith/styles/dracula
+dracula/root /etc/regolith/styles/dracula
+dracula/rofi.rasi /etc/regolith/styles/dracula
+dracula/i3-wm /etc/regolith/styles/dracula
+dracula/st-term /etc/regolith/styles/dracula
