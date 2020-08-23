@@ -1,3 +1,9 @@
+regolith-styles (2.6.2-1) bionic; urgency=medium
+
+  * Specify glyph for next-workspace status indicator for fontawesome and materialdesign.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 Aug 2020 09:52:02 -0700
+
 regolith-styles (2.6.1-1) bionic; urgency=medium
 
   [ Ken Gilmer ]

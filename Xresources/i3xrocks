@@ -49,3 +49,5 @@ i3xrocks.label.capslock: typeface_bar_glyph_capslock
 i3xrocks.label.numlock: typeface_bar_glyph_numlock
 
 i3xrocks.weather.error_message: typeface_bar_glyph_error
+
+i3xrocks.label.next-workspace-widget: typeface_bar_glyph_next_workspace
