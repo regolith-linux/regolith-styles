@@ -1,4 +1,4 @@
-#define gtk_theme           gruvbox-gtk
+#define gtk_theme           Gruvbox
 #define icon_theme          Moka
 #define rofi_theme          /etc/regolith/styles/gruvbox/rofi.rasi
 #define theme_terminal_scrollbar never
