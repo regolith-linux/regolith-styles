@@ -1,3 +1,10 @@
+regolith-styles (2.6.4-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add package for regolith-look-pop-os.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 27 Aug 2020 07:10:42 -0700
+
 regolith-styles (2.6.3-1) bionic; urgency=medium
 
   [ Aditya Wagh ]
