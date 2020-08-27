@@ -1,3 +1,14 @@
+regolith-styles (2.6.3-1) bionic; urgency=medium
+
+  [ Aditya Wagh ]
+  * Create Pop!_OS Style (#29)
+
+  [ Ken Gilmer ]
+  * Update gtk theme name for consistency.
+  * Add packaging data for pop-os look.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 26 Aug 2020 20:55:05 -0700
+
 regolith-styles (2.6.2-1) bionic; urgency=medium
 
   * Specify glyph for next-workspace status indicator for fontawesome and materialdesign.
