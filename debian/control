@@ -91,7 +91,7 @@ Description: User contributed Dracula theme
 
 Package: regolith-look-pop-os
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, pop-gtk-theme, pop-icon-theme, fonts-font-awesome, fonts-firacode
+Depends: ${misc:Depends}, regolith-styles, pop-gtk-theme, pop-icon-theme, fonts-font-awesome, pop-fonts
 Provides: regolith-look
-Description: User contributed Dracula theme
- Colors based on https://draculatheme.com/gtk
+Description: User contributed Pop!_OS theme
+ Default theme of https://pop.system76.com/.
