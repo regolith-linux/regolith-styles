@@ -1,3 +1,10 @@
+regolith-styles (2.6.6-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add next-workspace glyph for missing looks.  Change sound, mute, ram glyphs for fontawesome looks.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 29 Aug 2020 08:39:59 -0700
+
 regolith-styles (2.6.5-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
