@@ -3,7 +3,7 @@
    blue:             #19B6EE;
    darkblue:         #335280;
    cyan:             #007aa6;
-   lightcyan:        #762572;
+   purple:           #762572;
    green:            #0e8420;
    red:              #c7162b;
 
@@ -17,11 +17,11 @@
    background-color: @dark1;
    border-color:     @dark2;
    text-color:       @dark3;
-   dark-text-color:  @dark4;
+   dark-text-color:  @dark3;
    main-color:       @blue;
    highlight:        @light1;
    urgent-color:     @red;
-   selected-color:   @lightcyan;
+   selected-color:   @light1;
 }
 
 window {
