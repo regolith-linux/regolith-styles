@@ -1,3 +1,10 @@
+regolith-styles (2.6.8-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Update term colors for Dracula for more variance and remove conflict for color 11.  Addresses https://github.com/regolith-linux/regolith-styles/issues/32.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 07 Sep 2020 10:42:34 -0700
+
 regolith-styles (2.6.7-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
