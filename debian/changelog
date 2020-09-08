@@ -1,3 +1,10 @@
+regolith-styles (2.6.9-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Check a flag before executing gnome-terminal profile script.  Fixes https://github.com/regolith-linux/regolith-desktop/issues/471.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 07 Sep 2020 19:44:18 -0700
+
 regolith-styles (2.6.8-1) bionic; urgency=medium
 
   [ Ken Gilmer ]

@@ -56,7 +56,8 @@ refresh() {
         gsettings set org.gnome.desktop.background picture-uri "file://$(eval echo $WALLPAPER_FILE)"
     fi
 
-    if [ -f "/usr/bin/create-regolith-term-profile" ]; then
+    UPDATE_TERM_FLAG=$(xrescat gnome.terminal.update true)
+    if [[ "$UPDATE_TERM_FLAG" == "true" && -f "/usr/bin/create-regolith-term-profile" ]] ; then
         /usr/bin/create-regolith-term-profile
     fi
 
