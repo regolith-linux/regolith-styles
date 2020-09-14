@@ -1,3 +1,5 @@
+regolith.look: ayu
+
 ! -- Styles - Colors
 #include "/etc/regolith/styles/ayu/color"
 

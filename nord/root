@@ -1,3 +1,5 @@
+regolith.look: nord
+
 ! -- Styles - Colors
 #include "/etc/regolith/styles/nord/color"
 

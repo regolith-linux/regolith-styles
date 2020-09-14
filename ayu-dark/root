@@ -1,3 +1,5 @@
+regolith.look: ayu-dark
+
 ! -- Styles - Colors
 #include "/etc/regolith/styles/ayu-dark/color"
 

@@ -1,3 +1,5 @@
+regolith.look: lascaille
+
 ! -- Styles - Colors
 #include "/etc/regolith/styles/lascaille/color"
 

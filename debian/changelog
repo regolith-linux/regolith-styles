@@ -1,3 +1,10 @@
+regolith-styles (2.6.11-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add regolith.look Xres entry for currently set look.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 13 Sep 2020 20:12:12 -0700
+
 regolith-styles (2.6.10-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
