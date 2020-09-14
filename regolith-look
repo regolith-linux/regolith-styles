@@ -74,17 +74,18 @@ stage() {
 }
 
 set_look() {
-    if [ -f $HOME/.Xresources-regolith ]; then
-        echo "Regolith Xresources file ($HOME/.Xresources-regolith) already exists, aborting."
-        exit 1
+    XRES_ROOT_FILE="$HOME/.Xresources-regolith"
+    if [ -f "$XRES_ROOT_FILE" ]; then
+        BACKUP_FILE="/tmp/Xresources-regolith-$(date +%s)"
+        mv $XRES_ROOT_FILE $BACKUP_FILE
+        echo "Note: Regolith Xresources file $XRES_ROOT_FILE already exists, moved previous copy to $BACKUP_FILE."
     fi
 
     if [ -f "/etc/regolith/styles/$LOOK/root" ]; then
         echo "#include \"/etc/regolith/styles/$LOOK/root\"" > $HOME/.Xresources-regolith
-        echo "Created $HOME/.Xresources-regolith pointing to $LOOK."
+        echo "Created $XRES_ROOT_FILE pointing to $LOOK."
     else
-        echo "Look $LOOK does not exist or export a root file at /etc/regolith/styles/$LOOK/root."
-        echo "Aborting."
+        echo "Look $LOOK does not exist or export a root file at /etc/regolith/styles/$LOOK/root, aborting."
         exit 1
     fi
 }
@@ -102,7 +103,7 @@ elif [ "$COMMAND" == "set" ]; then
         set_look
     fi
 elif [ "$COMMAND" == "list" ]; then
-    find /etc/regolith/styles/ -maxdepth 1 -mindepth 1 -type d -printf '%f\n'
+    find /etc/regolith/styles/ -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort
 else
     echo "Unrecognized command: $COMMAND"
     exit 1
