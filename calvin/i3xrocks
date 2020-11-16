@@ -1,0 +1,53 @@
+i3xrocks.label.color:       color_base0
+i3xrocks.value.color:       color_base1
+i3xrocks.value.font:        typeface_bar_glyph
+i3xrocks.critical.color:    color_red
+i3xrocks.error.color:       color_orange
+i3xrocks.warning:           color_blue
+i3xrocks.nominal:           color_base0
+
+i3xrocks.label.thermometer: typeface_bar_glyph_thermometer
+
+i3xrocks.label.wifi: typeface_bar_glyph_wifi
+i3xrocks.label.wired: typeface_bar_glyph_wired
+i3xrocks.label.up: typeface_bar_glyph_up
+i3xrocks.label.dn: typeface_bar_glyph_dn
+
+i3xrocks.label.cpu: typeface_bar_glyph_cpu
+
+i3xrocks.label.disk: typeface_bar_glyph_disk
+
+i3xrocks.label.battery100: typeface_bar_glyph_battery_100
+i3xrocks.label.battery80: typeface_bar_glyph_battery_80
+i3xrocks.label.battery50: typeface_bar_glyph_battery_50
+i3xrocks.label.battery20: typeface_bar_glyph_battery_20
+i3xrocks.label.battery0: typeface_bar_glyph_battery_0
+i3xrocks.label.batterycharging: typeface_bar_glyph_battery_charging
+i3xrocks.label.batteryac: typeface_bar_glyph_battery_ac
+i3xrocks.label.batteryunknown: typeface_bar_glyph_battery_unknown
+
+i3xrocks.label.time: typeface_bar_glyph_time
+
+i3xrocks.label.mediaplaying: typeface_bar_glyph_media_playing
+i3xrocks.label.mediapaused: typeface_bar_glyph_media_paused
+i3xrocks.value.mediaplayerwidth: 25
+
+i3xrocks.label.notify.none: typeface_bar_glyph_notify_none
+i3xrocks.label.notify.some: typeface_bar_glyph_notify_some
+i3xrocks.label.notify.error: typeface_bar_glyph_notify_error
+
+i3xrocks.label.help: typeface_bar_glyph_help
+
+i3xrocks.label.sound: typeface_bar_glyph_sound
+i3xrocks.label.mute: typeface_bar_glyph_mute
+i3xrocks.label.memory: typeface_bar_glyph_memory
+
+i3xrocks.label.on: typeface_bar_glyph_on
+i3xrocks.label.off: typeface_bar_glyph_off
+
+i3xrocks.label.capslock: typeface_bar_glyph_capslock
+i3xrocks.label.numlock: typeface_bar_glyph_numlock
+
+i3xrocks.weather.error_message: typeface_bar_glyph_error
+
+i3xrocks.label.next-workspace-widget: typeface_bar_glyph_next_workspace

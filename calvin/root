@@ -1,0 +1,18 @@
+regolith.look: calvin
+
+! -- Styles - Colors
+#include "/etc/regolith/styles/calvin/color"
+
+! -- Styles - Fonts
+#include "/etc/regolith/styles/calvin/typeface"
+
+! -- Styles - Theme
+#include "/etc/regolith/styles/calvin/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "/etc/regolith/styles/calvin/st-term"
+#include "/etc/regolith/styles/calvin/i3-wm"
+#include "/etc/regolith/styles/calvin/i3xrocks"
+#include "/etc/regolith/styles/rofi"
+#include "/etc/regolith/styles/gnome"

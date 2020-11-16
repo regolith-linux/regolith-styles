@@ -1,0 +1,162 @@
+/* global settings and color variables */
+* {
+   blue:             #81A1C1;
+   darkblue:         #5E81AC;
+   cyan:             #8FBCBB;
+   lightcyan:        #88C0D0;
+   green:            #A3BE8C;
+   red:              #BF616A;
+
+   dark1:            #ECEFF4;
+   dark2:            #E5E9F0;
+   dark3:            #D8DEE9;
+
+   light1:           #4C566A;
+   light2:           #434C5E;
+
+   background-color: @dark2;
+   border-color:     @dark3;
+   text-color:       @dark1;
+   dark-text-color:  @darkblue;
+   main-color:       @blue;
+   highlight:        @light2;
+   urgent-color:     @red;
+   selected-color:   @light2;
+}
+
+window {
+   background-color: @background-color;
+   width: 640px;
+   padding: 10px;
+   fullscreen: false;
+   border:  2px;
+   border-radius: 0px;
+   border-color: @border-color;
+}
+
+mainbox {
+   background-color: @background-color;
+   spacing:0px;
+}
+
+message {
+   padding: 6px 10px;
+   background-color: @background-color;
+}
+
+textbox {
+   text-color: @text-color;
+   background-color:@background-color;
+}
+
+listview {
+   fixed-height: true;
+   dynamic: true;
+   scrollbar: false;
+   spacing: 0px;
+   padding: 1px 0px 0px 0px;
+   margin: 0px 0px 1px 0px;
+   background: @background-color;
+}
+
+element {
+   padding: 4px 10px;
+}
+
+element normal.normal {
+   padding: 0px 15px;
+   background-color: @background-color;
+   text-color: @dark-text-color;
+}
+
+element normal.urgent {
+   background-color: @background-color;
+   text-color: @urgent-color;
+}
+
+element normal.active {
+   background-color: @background-color;
+   text-color: @main-color;
+}
+
+element selected.normal {
+    background-color: @border-color;
+    text-color:       @selected-color;
+}
+
+element selected.urgent {
+    background-color: @urgent-color;
+    text-color:       @background-color;
+}
+
+element selected.active {
+    background-color: @border-color;
+    text-color:       @green;
+}
+
+element alternate.normal {
+    background-color: @background-color;
+    text-color:       @dark-text-color;
+}
+
+element alternate.urgent {
+    background-color: @background-color;
+    text-color:       @urgent-color;
+}
+
+element alternate.active {
+    background-color: @background-color;
+    text-color:       @main-color;
+}
+
+scrollbar {
+   background-color: @background-color;
+   handle-color: @background-color;
+   handle-width: 0px;
+}
+
+mode-switcher {
+   background-color: @background-color;
+}
+
+button {
+   background-color: @background-color;
+   text-color:       @text-color;
+}
+
+button selected {
+    text-color:       @main-color;
+}
+
+inputbar {
+   background-color: @background-color;
+   spacing: 0px;
+   children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+prompt {
+   padding:0px 10px;
+   background-color: @background-color;
+   text-color: @highlight;
+}
+
+entry {
+   padding:0px 6px;
+   background-color:@background-color;
+   text-color:@light1;
+}
+
+case-indicator {
+   padding:6px 10px;
+   text-color:@main-color;
+   background-color:@background-color;
+}
+
+#textbox-prompt-colon {
+	padding:0px 0px;
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @highlight;
+    background-color:@background-color;
+}

@@ -1,0 +1,40 @@
+! Typeface: Cascadia Code
+#define typeface_bar_glyph  Cascadia Code 13
+#define typeface_wm         pango:Cascadia Code 13
+#define typeface_bar        pango:Cascadia Code 13, Material Design Icons 13
+#define typeface_rofi       Cascadia Code Medium 16
+#define typeface_terminal   Cascadia Code:pixelsize=16:antialias=true:autohint=true
+#define typeface_gnome_terminal Cascadia Code 12
+
+#define typeface_bar_glyph_battery_0 
+#define typeface_bar_glyph_battery_100 
+#define typeface_bar_glyph_battery_20 
+#define typeface_bar_glyph_battery_50 
+#define typeface_bar_glyph_battery_80 
+#define typeface_bar_glyph_battery_ac 
+#define typeface_bar_glyph_battery_charging 
+#define typeface_bar_glyph_battery_unknown 
+#define typeface_bar_glyph_capslock 
+#define typeface_bar_glyph_cpu 
+#define typeface_bar_glyph_disk 
+#define typeface_bar_glyph_dn 
+#define typeface_bar_glyph_error 
+#define typeface_bar_glyph_help 
+#define typeface_bar_glyph_media_paused 
+#define typeface_bar_glyph_media_playing 
+#define typeface_bar_glyph_memory 
+#define typeface_bar_glyph_mute 
+#define typeface_bar_glyph_next_workspace 
+#define typeface_bar_glyph_notify_error 
+#define typeface_bar_glyph_notify_none 
+#define typeface_bar_glyph_notify_some 
+#define typeface_bar_glyph_numlock 
+#define typeface_bar_glyph_off 
+#define typeface_bar_glyph_on 
+#define typeface_bar_glyph_sound 
+#define typeface_bar_glyph_thermometer 
+#define typeface_bar_glyph_time 
+#define typeface_bar_glyph_up 
+#define typeface_bar_glyph_wifi 
+#define typeface_bar_glyph_wired 
+#define typeface_bar_glyph_workspace 
