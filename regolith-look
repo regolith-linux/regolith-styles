@@ -56,9 +56,11 @@ refresh() {
         gsettings set org.gnome.desktop.background picture-uri "file://$(eval echo $WALLPAPER_FILE)"
     fi
 
-    UPDATE_TERM_FLAG=$(xrescat gnome.terminal.update true)
-    if [[ "$UPDATE_TERM_FLAG" == "true" && -f "/usr/bin/create-regolith-term-profile" ]] ; then
-        /usr/bin/create-regolith-term-profile
+    if hash gnome-terminal 2>/dev/null; then # Check if gnome-terminal is on the path
+        UPDATE_TERM_FLAG=$(xrescat gnome.terminal.update true)
+        if [[ "$UPDATE_TERM_FLAG" == "true" && -f "/usr/bin/create-regolith-term-profile" ]] ; then
+            /usr/bin/create-regolith-term-profile
+        fi
     fi
 
     # restart i3-wm after merging Xresources
