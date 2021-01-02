@@ -1,0 +1,18 @@
+regolith.look: midnight	
+
+! -- Styles - Colors
+#include "/etc/regolith/styles/midnight/color"
+
+! -- Styles - Fonts
+#include "/etc/regolith/styles/midnight/typeface"
+
+! -- Styles - Theme
+#include "/etc/regolith/styles/midnight/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "/etc/regolith/styles/st-term"
+#include "/etc/regolith/styles/i3-wm"
+#include "/etc/regolith/styles/i3xrocks"
+#include "/etc/regolith/styles/rofi"
+#include "/etc/regolith/styles/gnome"

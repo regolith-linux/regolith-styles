@@ -1,0 +1,17 @@
+! https://github.com/ubuntu/yaru/blob/master/gtk/src/default/gtk-3.20/_ubuntu-colors.scss
+#define color_base03   #181818
+#define color_base02   #3D3D3D
+#define color_base01   #5D5D5D
+#define color_base00   #666666
+#define color_base0    #FFFFFF
+#define color_base1    #F7F7F7
+#define color_base2    #CCC
+#define color_base3    #878787
+#define color_yellow   #f99b11
+#define color_orange   #E95420
+#define color_red      #c7162b
+#define color_magenta  #335280
+#define color_violet   #762572
+#define color_blue     #19B6EE
+#define color_cyan     #007aa6
+#define color_green    #0e8420
