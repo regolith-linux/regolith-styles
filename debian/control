@@ -24,7 +24,7 @@ Architecture: any
 Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
 Provides: regolith-look
 Description: Regolith R1.2 look
- Nord Look takes the default fontawesome solarized theme but changes 
+ Nord Look takes the default fontawesome solarized theme but changes
  the color scheme to Nord.
 
 Package: regolith-look-ayu
@@ -95,3 +95,9 @@ Depends: ${misc:Depends}, regolith-styles, pop-gtk-theme, pop-icon-theme, fonts-
 Provides: regolith-look
 Description: User contributed Pop!_OS theme
  Default theme of https://pop.system76.com/.
+
+Package: regolith-look-midnight
+Architecture: any
+Depends: ${misc:Depends}, regolith-styles, fonts-materialdesignicons-webfont
+Provides: regolith-look
+Description: User contributed theme based on the midnight theme (https://github.com/i-mint/midnight) and qogir icons (https://github.com/vinceliuice/Qogir-icon-theme/).
