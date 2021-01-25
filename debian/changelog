@@ -1,3 +1,10 @@
+regolith-styles (2.6.15-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Use relative width over pixels for better HiDPI support of Rofi dialog.  Idea from @eduncan911 in https://github.com/regolith-linux/regolith-desktop/issues/417.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 24 Jan 2021 19:37:05 -0800
+
 regolith-styles (2.6.14-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
