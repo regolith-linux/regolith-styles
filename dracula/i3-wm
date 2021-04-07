@@ -10,7 +10,7 @@ i3-wm.bar.position: i3wm_bar_position
 i3-wm.bar.background.color: color_base00
 i3-wm.bar.statusline.color: color_base0
 i3-wm.bar.separator.color: color_base01
-i3-wm.bar.workspace.focused.border.color: color_bas01
+i3-wm.bar.workspace.focused.border.color: color_base1
 i3-wm.bar.workspace.focused.background.color: color_base01
 i3-wm.bar.workspace.focused.text.color: color_base0
 i3-wm.bar.workspace.active.border.color: color_base00
