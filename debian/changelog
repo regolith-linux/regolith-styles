@@ -1,3 +1,14 @@
+regolith-styles (2.6.17-1) bionic; urgency=medium
+
+  [ HieuTranTH ]
+  * dracula: Fix a typo in i3-wm config file (#41)
+  * ubuntu: Fix color_base2 incomplete hex code (#42)
+
+  [ Ken Gilmer ]
+  * Add highlight to bar for non-active focused windows for better multi-monitor experience (lascaille)
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 08 Apr 2021 07:47:13 -0700
+
 regolith-styles (2.6.16-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
