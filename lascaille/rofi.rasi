@@ -1,4 +1,5 @@
 /* global settings and color variables */
+
 * {
    blue:             #a6e1ff;
    darkblue:         #B48EAD;
@@ -53,14 +54,17 @@ listview {
    fixed-height: true;
    dynamic: true;
    scrollbar: false;
-   spacing: 0px;
+   spacing: 10px;
    padding: 1px 0px 0px 0px;
    margin: 0px 0px 1px 0px;
    background: @background-color;
+   columns: 2;
+   lines: 10;
 }
 
 element {
    padding: 4px 10px;
+   
 }
 
 element normal.normal {
@@ -107,6 +111,10 @@ element alternate.urgent {
 element alternate.active {
     background-color: @background-color;
     text-color:       @main-color;
+}
+
+element-icon { 
+   size: 2ch ; 
 }
 
 scrollbar {
