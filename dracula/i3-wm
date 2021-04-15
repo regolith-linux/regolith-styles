@@ -26,7 +26,7 @@ i3-wm.bar.workspace.urgent.text.color: color_base0
 i3-wm.client.focused.color.border: color_blue
 i3-wm.client.focused.color.background: color_blue
 i3-wm.client.focused.color.text: color_base0
-i3-wm.client.focused.color.indicator: color_blue
+i3-wm.client.focused.color.indicator: color_purple
 i3-wm.client.focused.color.child_border: color_blue
 
 i3-wm.client.focused_inactive.color.border: color_base01
