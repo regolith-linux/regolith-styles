@@ -1,3 +1,10 @@
+regolith-styles (2.8.2-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix font specification for midnight look
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 18 Apr 2021 16:58:56 -0700
+
 regolith-styles (2.8.1-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
