@@ -98,6 +98,6 @@ Description: User contributed Pop!_OS theme
 
 Package: regolith-look-midnight
 Architecture: any
-Depends: ${misc:Depends}, regolith-styles, fonts-materialdesignicons-webfont
+Depends: ${misc:Depends}, regolith-styles, nerd-font-iosevka, midnight-gtk-theme, qogir-icon-theme
 Provides: regolith-look
 Description: User contributed theme based on the midnight theme (https://github.com/i-mint/midnight) and qogir icons (https://github.com/vinceliuice/Qogir-icon-theme/).

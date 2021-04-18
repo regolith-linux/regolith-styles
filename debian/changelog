@@ -1,3 +1,13 @@
+regolith-styles (2.8.0-1) bionic; urgency=medium
+
+  [ Fabian ]
+  * Add midnight theme (#37)
+
+  [ Ken Gilmer ]
+  * Add dependencies to midnight look
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 18 Apr 2021 09:21:51 -0700
+
 regolith-styles (2.7.1-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
