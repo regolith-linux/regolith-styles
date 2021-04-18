@@ -1,0 +1,7 @@
+midnight/color /etc/regolith/styles/midnight
+midnight/typeface /etc/regolith/styles/midnight
+midnight/theme /etc/regolith/styles/midnight
+midnight/root /etc/regolith/styles/midnight
+midnight/rofi.rasi /etc/regolith/styles/midnight
+midnight/i3-wm /etc/regolith/styles/midnight
+midnight/depends/iosevka-nerd-font.ttf /usr/share/fonts
