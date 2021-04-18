@@ -1,3 +1,12 @@
+regolith-styles (2.7.1-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Specify different color for indicator to make window orientation indicator visible in dracula.  Fixes https://github.com/regolith-linux/regolith-styles/issues/40.
+  * Revert to single column mode in lascaille
+  * Use accent color for orientation border decoration in lascaille
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 18 Apr 2021 08:59:31 -0700
+
 regolith-styles (2.7.0-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
