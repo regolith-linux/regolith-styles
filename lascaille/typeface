@@ -38,3 +38,4 @@
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
 #define typeface_bar_glyph_workspace 
+#define typeface_bar_glyph_app_launcher 

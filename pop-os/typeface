@@ -45,3 +45,4 @@
 #define typeface_bar_glyph_error 
 
 #define typeface_bar_glyph_next_workspace 
+#define typeface_bar_glyph_app_launcher 
