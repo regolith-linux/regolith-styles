@@ -1,3 +1,10 @@
+regolith-styles (2.8.4-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Revert font specification to original
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 20 Apr 2021 07:41:58 -0700
+
 regolith-styles (2.8.3-1) bionic; urgency=medium
 
   [ Ken Gilmer ]

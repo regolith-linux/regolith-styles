@@ -1,8 +1,8 @@
 ! Typeface: Iosevka Nerd Font
-#define typeface_bar_glyph  pango:Iosevka 13
-#define typeface_wm         pango:Iosevka 13
-#define typeface_bar        pango:Iosevka, Material Design Icons 13
-#define typeface_rofi       Iosevka 16
+#define typeface_bar_glyph  Iosevka Nerd Font 13
+#define typeface_wm         pango:Iosevka Nerd Font 16
+#define typeface_bar        pango:Iosevka Nerd Font 13, Material Design Icons 13
+#define typeface_rofi       Iosevka Nerd Font 16
 #define typeface_terminal   Ubuntu Mono:pixelsize=16:antialias=true:autohint=true
 #define typeface_gnome_terminal Ubuntu Mono 12
 
