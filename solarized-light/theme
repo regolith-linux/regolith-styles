@@ -1,4 +1,4 @@
-#define gtk_theme           SolArc-Dark
+#define gtk_theme           SolArc
 #define icon_theme          Arc
 #define desktop_wallpaper   /usr/share/backgrounds/themer-wallpaper-burst-light-2880x1800.png
 #define rofi_theme          /etc/regolith/styles/solarized-light/rofi.rasi
