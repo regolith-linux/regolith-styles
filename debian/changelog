@@ -1,3 +1,14 @@
+regolith-styles (2.9.0-1) bionic; urgency=medium
+
+  [ Ricardo Pérez ]
+  * New solarized-light theme (#43)
+
+  [ Ken Gilmer ]
+  * Package solarlized-light look contribution from @ricpelo
+  * Add icon for app launcher shortcut
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 07 May 2021 20:41:20 -0700
+
 regolith-styles (2.8.4-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
