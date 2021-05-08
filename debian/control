@@ -67,6 +67,15 @@ Description: Solarized Dark look
  A Regolith look featuring the Solarized Dark color palette and
  fontawesome icons. This is the original Regolith theme.
 
+Package: regolith-look-solarized-light
+Architecture: any
+Depends: ${misc:Depends}, regolith-styles, arc-icon-theme, solarc-theme, fonts-font-awesome, fonts-source-code-pro-ttf
+Conflicts: regolith-assets
+Provides: regolith-look
+Description: Solarized Light look
+ A Regolith look featuring the Solarized Light color palette and
+ fontawesome icons.
+
 Package: regolith-look-ubuntu
 Architecture: any
 Depends: ${misc:Depends}, regolith-styles, adwaita-icon-theme, fonts-font-awesome, fonts-ubuntu, ubuntu-wallpapers

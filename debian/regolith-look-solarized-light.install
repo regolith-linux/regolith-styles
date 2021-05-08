@@ -1,0 +1,7 @@
+solarized-light/color /etc/regolith/styles/solarized-light
+solarized-light/typeface /etc/regolith/styles/solarized-light
+solarized-light/theme /etc/regolith/styles/solarized-light
+solarized-light/root /etc/regolith/styles/solarized-light
+solarized-light/rofi.rasi /etc/regolith/styles/solarized-light
+solarized-light/themer-wallpaper-burst-light-2880x1800.png /usr/share/backgrounds
+solarized-light/solarized-light.xml /usr/share/gnome-background-properties
