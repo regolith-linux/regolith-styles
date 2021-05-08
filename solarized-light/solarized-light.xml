@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <name>themer/wallpaper-burst</name>
+    <filename>/usr/share/backgrounds/themer-wallpaper-burst-light-2880x1800.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+</wallpapers>
