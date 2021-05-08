@@ -5,7 +5,7 @@
 #define color_base00   #666666
 #define color_base0    #FFFFFF
 #define color_base1    #F7F7F7
-#define color_base2    #CCC
+#define color_base2    #CCCCCC
 #define color_base3    #878787
 #define color_yellow   #f99b11
 #define color_orange   #E95420

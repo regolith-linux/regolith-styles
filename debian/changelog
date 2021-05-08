@@ -1,3 +1,10 @@
+regolith-styles (2.9.2-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix color value unparsable by i3
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 08 May 2021 10:14:29 -0700
+
 regolith-styles (2.9.1-1) bionic; urgency=medium
 
   [ Ricardo Pérez ]
