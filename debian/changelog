@@ -1,3 +1,10 @@
+regolith-styles (2.9.5-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix pop os gnome settings
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 May 2021 12:23:00 -0700
+
 regolith-styles (2.9.4-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
