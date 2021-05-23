@@ -3,5 +3,5 @@ pop-os/typeface /etc/regolith/styles/pop-os
 pop-os/theme /etc/regolith/styles/pop-os
 pop-os/root /etc/regolith/styles/pop-os
 pop-os/rofi.rasi /etc/regolith/styles/pop-os
-pop-os/kate-hazen-unleash-your-robot-blue.png /usr/share/backgrounds
+pop-os/regolith-kate-hazen-unleash-your-robot-blue.png /usr/share/backgrounds
 pop-os/pop-os.xml /usr/share/gnome-background-properties

@@ -1,3 +1,10 @@
+regolith-styles (2.9.4-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix pop-os background. Change image filename to avoid conflicts
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 May 2021 12:20:50 -0700
+
 regolith-styles (2.9.3-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
