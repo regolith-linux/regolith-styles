@@ -1,3 +1,10 @@
+regolith-styles (2.9.3-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add background image missing from midnight theme
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 May 2021 12:13:11 -0700
+
 regolith-styles (2.9.2-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
