@@ -1,3 +1,10 @@
+regolith-styles (2.9.6-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Another attempt to fix pop-os wallpaper reference
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 May 2021 19:48:48 -0700
+
 regolith-styles (2.9.5-1) bionic; urgency=medium
 
   [ Ken Gilmer ]

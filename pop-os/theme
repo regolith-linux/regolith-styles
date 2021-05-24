@@ -1,6 +1,6 @@
 #define gtk_theme           Pop-dark
 #define icon_theme          Pop
-#define desktop_wallpaper   /usr/share/backgrounds/regolith-kate-hazen-unleash-your-robot.png
+#define desktop_wallpaper   /usr/share/backgrounds/regolith-kate-hazen-unleash-your-robot-blue.png
 #define rofi_theme          /etc/regolith/styles/pop-os/rofi.rasi
 #define theme_terminal_scrollbar never
 
