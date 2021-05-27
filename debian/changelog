@@ -1,3 +1,10 @@
+regolith-styles (2.9.7-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Rename midnight look background file to avoid collision w/ ubuntu-wallpapers-focal.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 27 May 2021 16:04:59 -0700
+
 regolith-styles (2.9.6-1) bionic; urgency=medium
 
   [ Ken Gilmer ]

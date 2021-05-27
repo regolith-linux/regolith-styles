@@ -1,6 +1,6 @@
 #define gtk_theme           Midnight-GrayNight
 #define icon_theme          Qogir-ubuntu
-#define desktop_wallpaper   /usr/share/backgrounds/matt-mcnulty-nyc-2nd-ave.jpg
+#define desktop_wallpaper   /usr/share/backgrounds/regolith-matt-mcnulty-nyc-2nd-ave.jpg
 #define rofi_theme          /etc/regolith/styles/midnight/rofi.rasi
 #define theme_terminal_scrollbar never
 
